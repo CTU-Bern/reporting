@@ -1,0 +1,22 @@
+site_id,country,city,activation_date
+CH01,Switzerland,Aarau,2026-01-13
+CH02,Switzerland,Baden,2026-03-17
+CH03,Switzerland,Basel,2026-02-05
+CH04,Switzerland,Bellinzona,2026-01-26
+CH05,Switzerland,Bern,2026-03-06
+CH06,Switzerland,Fribourg,2026-01-23
+CH07,Switzerland,Geneva,2026-02-28
+CH08,Switzerland,St. Gallen,2026-01-10
+CH09,Switzerland,Lausanne,2026-03-18
+CH10,Switzerland,Luzern,2026-03-17
+CH11,Switzerland,Lugano,2026-01-04
+CH12,Switzerland,Olten,2026-01-27
+CH13,Switzerland,Solothurn,2026-03-28
+CH14,Switzerland,Sion,2026-01-23
+CH15,Switzerland,Zurich,2026-02-28
+CH16,Switzerland,Chur,2026-01-11
+CH17,Switzerland,Neuchâtel,2026-01-31
+DE01,Germany,Berlin,2026-01-14
+FR01,France,Paris,2026-02-06
+FR02,France,Amiens,2026-02-01
+IT01,Italy,Verona,2026-03-04

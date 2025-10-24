@@ -1,0 +1,13 @@
+project:
+  type: website         # Dashboard = website project type
+  output-dir: docs     # Quarto will put the rendered files here
+
+website:
+  title: "DCR Dashboard"
+  page-footer:
+    center: "2025 University of Bern | Departement of Clinical Research"
+format:
+  html:
+    theme: styles/unibeDashboard.scss
+    page-layout: full
+

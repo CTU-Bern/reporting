@@ -1,0 +1,749 @@
+---
+title: "DCR Dashboard"
+format: 
+  dashboard:
+    logo: DCRLogo.jpg
+    css: /styles/unibeDashboard.scss
+    scrolling: false
+server:
+  serve: true
+  browse: true
+---
+
+
+```{r}
+#| label: packages
+#| include: false
+library(accrualPlot)
+library(tidyverse)  # for data wrangling, plotting
+library(unibeCols)
+library(data.table)
+library(ggbreak)
+library(DT)
+library(knitr)
+library(survival)
+library(survminer)
+library(plotly)
+library(patchwork)
+library(kableExtra)
+library(gridExtra)
+```
+
+# Reporting
+
+We offer various reporting options to help you track the key aspects of your clinical trial.
+
+-   Recruitment reports
+-   Safety reports
+-   Patient retention reports
+-   Query reports
+-   Shiny Dashboard
+
+# Recruitment
+## Column
+
+### Column {.tabset}
+
+```{r}
+#| label: overall recruitment 
+#| title: Overall Recruitment 
+#| echo: false
+#| warning: false 
+#| fig.height: 15
+#| fig-width: 12
+
+options(datatable.IDateTime.classes = c("Date", "POSIXct"))
+dat <- fread("data/subject_summary.csv", header = T)
+acc <- accrual_create_df(dat$enrollment_date, by = dat$city)
+p1 <- gg_accrual_plot_cum(acc$Overall) +
+  theme_classic(base_size = 20) +
+  scale_x_date(labels = function(x) format(x, format = "%d %b %Y"))
+p2 <- gg_accrual_plot_abs(acc$Overall, unit = "month") +
+  theme_classic(base_size = 20) +
+  scale_x_date(labels = function(x) format(x, format = "%b %Y"))
+grid.arrange(nrow=2, ncol=1, p1,p2)
+
+```
+
+
+```{r}
+#| label: Recruitment per site
+#| title: Recruitment per Site
+#| echo: false
+#| warning: false
+#| fig.height: 17
+#| fig-width: 15
+cols <- c(unibeIceS(), unibeApricotS(), unibeSaphireS(),unibeMintS(),unibeRed(),unibeBlack())
+
+p1 <- gg_accrual_plot_cum(acc[names(acc) != "Overall"]) +
+  geom_step(linewidth = 1) +
+  theme_classic(base_size = 20) +
+  scale_x_date(labels = function(x) format(x, format = "%d %b %Y")) +
+  scale_color_manual(values = cols) +
+  theme(legend.position = "left") +
+  guides(color = guide_legend(override.aes = list(linewidth = 2)))
+p2 <- plot(acc, which = "abs", unit = "month", engine = "gg") +
+  theme_classic(base_size = 20) +
+  scale_x_date(labels = function(x) format(x, format = "%b %Y")) +
+  scale_fill_manual(values = cols) +
+  theme(legend.position = "left")
+grid.arrange(nrow=2, ncol=1, p1,p2)
+
+```
+
+```{r}
+#| echo: false
+#| label: predicted end
+#| title: Predicted End
+#| warning: false
+#| fig.height: 7
+#| fig-width: 10
+plot(acc, engine = "gg", which = "pred", target = 650) +
+  theme_classic(base_size = 20) +
+  scale_x_date(labels = function(x) format(x, format = "%b %d %Y")) +
+  theme(plot.title.position = "plot")
+```
+
+### Column {.tabset}
+
+```{r}
+#| label: recruitment per site - table
+#| title: Recruitment per Site - Table
+#| echo: false
+#| warning: false
+#| include: true
+
+
+report_table <- summary(acc)
+names(report_table) <- report_table[1,]
+report_table <- report_table[-1,]
+report_table$Center <- as.factor(report_table$Center)
+kable(
+  report_table,
+  caption = "Recruitment of patients by city",
+  col.names = names(report_table),
+  digits = 2,
+  align = "r"
+) %>% 
+  kable_styling(full_width = FALSE) 
+
+```
+
+
+```{r}
+#| label: recruitment per country - table
+#| title: Recruitment per Country - Table
+#| echo: false
+#| warning: false
+cols <- c(unibeMint(),unibeApricot(), unibeGreen(),unibeIce(), unibeBlack())
+acc2 <- accrual_create_df(dat$enrollment_date, by = dat$country)
+report_table <- summary(acc2)
+names(report_table) <- report_table[1,]
+report_table <- report_table[-1,]
+report_table$Center <- as.factor(report_table$Center)
+report_table$`First participant in` <- as.Date(report_table$`First participant in`, format = "%d%b%Y")
+report_table$`First participant in` <- format(report_table$`First participant in`, "%d.%m.%Y")
+kable(
+  report_table,
+  caption = "Recruitment of patients by country",
+  col.names = names(report_table),
+  digits = 2,
+  align = "r"
+) %>% 
+  kable_styling(full_width = FALSE) 
+```
+
+
+# Safety 
+
+## Column
+
+### Row 
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: General information
+#| title: General information
+
+
+sae_df <- fread("data/sae.csv", header = T)
+n_patient_sae <- sae_df %>% distinct(record_id) %>% nrow()
+n_patient <- dat %>% distinct(record_id) %>% nrow()
+pc_sae <- (n_patient_sae/n_patient)*100
+pc_sae <- round(pc_sae)
+
+```
+
+So far `r n_patient_sae` patients had at least one SAE since the start of the study. This represents `r pc_sae`% of patients.
+
+
+#### column {.tabset} 
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| label: SAE by country
+#| title: SAE by country
+# Count patients with ≥1 SAE per country
+sae_country_summary <- sae_df %>%
+  distinct(record_id, country) %>%              # Each patient counted once per country
+  group_by(country) %>%
+  summarise(n_with_SAE = n()) %>%
+  left_join(
+    dat %>%
+      group_by(country) %>%
+      summarise(n_patients = n()),              # Total patients per country
+    by = "country"
+  ) %>%
+  mutate(
+    pct_with_SAE = round((n_with_SAE / n_patients) * 100, 1)
+  ) %>%
+  arrange(desc(pct_with_SAE))
+
+# Display nicely formatted table
+kable(
+  format = "html",
+  sae_country_summary,
+  caption = "Patients with ≥1 SAE per Country",
+  col.names = c(
+    "Country",
+    "Patients <br> with ≥1 SAE",  # line break here
+    "Total <br> Patients",
+    "% <br> with SAE"
+  ),
+  escape = FALSE   # important to allow <br> in headers
+) %>%
+  kable_styling(full_width = FALSE)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| label: SAEs by seriousness
+#| title: SAEs by seriousness
+
+sae_seriousness <- sae_df %>%
+  count(event_name, seriousness_criteria) %>%
+  pivot_wider(names_from = seriousness_criteria, values_from = n, values_fill = 0)
+
+kable(sae_seriousness, caption = "SAEs by Event Type and Seriousness",
+      col.names = c(
+    "Event Name",
+    "Disability",  
+    "Hospitalization",
+    "Life-threatening",
+    "Other"
+  ))
+```
+
+### column {.tabset}
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 11
+#| fig-width: 10
+#| label: SAE rate by site
+#| title: SAE rate by site
+sae_city_rate <- sae_df %>%
+  distinct(record_id, city, country) %>%              # Each patient counted once
+  group_by(country, city) %>%
+  summarise(n_patients_with_SAE = n(), .groups = "drop") %>%
+  left_join(
+    dat %>%
+      group_by(country, city) %>%
+      summarise(n_patients = n(), .groups = "drop"),
+    by = c("country", "city")
+  ) %>%
+  mutate(
+    pct_with_SAE = round((n_patients_with_SAE / n_patients) * 100, 1)
+  ) %>%
+  arrange(desc(pct_with_SAE))%>% 
+  mutate(pct_with_SAE = case_when(city == "Baden" ~ 0,
+                           TRUE ~ pct_with_SAE))
+
+
+# --- Bar plot (% of patients with ≥1 SAE per city) ---
+ggplot(sae_city_rate, aes(x = reorder(city, pct_with_SAE), y = pct_with_SAE, fill = country)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+  geom_text(aes(label = ifelse(pct_with_SAE == 0, "", paste0(pct_with_SAE, "%"))),
+            hjust = -0.1, size = 3.5) +
+  coord_flip() +
+  labs(
+    title = "% of Patients with ≥1 SAE per City",
+    x = "City",
+    y = "% of Patients with SAE",
+    fill = "Country"
+  ) +
+  theme_classic(base_size = 20) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    panel.grid.minor = element_blank()
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))+
+  scale_fill_manual(values = c(unibeIce(),unibeApricot(), unibeGreen(),unibeMint()))
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 11
+#| fig-width: 10
+#| label: SAEs over time
+#| title: SAEs over time
+
+sae_time <- sae_df %>%
+  mutate(month = floor_date(event_onset_date, "month")) %>%
+  count(month, event_name)
+
+# Ensure month is Date
+sae_time <- sae_time %>% mutate(month = as.Date(month))
+
+# Define line and marker colors per event
+event_names <- unique(sae_time$event_name)
+line_colors <- c(unibeRed(), unibeMustard(), unibeApricot(), unibeGreen(), unibeMintS())
+names(line_colors) <- event_names
+marker_colors <- c(unibeRed(), unibeMustard(), unibeApricot(), unibeGreen(), unibeMintS())
+names(marker_colors) <- event_names
+
+# Initialize Plotly figure
+p <- plot_ly()
+
+# Add a trace per event
+for(ev in event_names) {
+  df <- sae_time %>% filter(event_name == ev)
+  
+  p <- p %>% add_trace(
+    data = df,
+    x = ~month,
+    y = ~n,
+    type = 'scatter',
+    mode = 'lines+markers',
+    name = ev,
+    line = list(color = line_colors[ev], width = 2),
+    marker = list(color = marker_colors[ev], size = 8),
+    text = ~paste("Event:", event_name,
+                  "<br>Month:", format(month, "%b %Y"),
+                  "<br>Count:", n),
+    hoverinfo = 'text',
+    visible = TRUE  # initially all visible; dropdown will toggle
+  )
+}
+
+# Create dropdown buttons
+buttons <- lapply(seq_along(event_names), function(i) {
+  visibility <- rep(FALSE, length(event_names))
+  visibility[i] <- TRUE
+  list(method = "restyle",
+       args = list("visible", visibility),
+       label = event_names[i])
+})
+
+# Add a "Show All" button
+buttons <- c(list(list(method = "restyle",
+                       args = list("visible", rep(TRUE, length(event_names))),
+                       label = "Show All")), buttons)
+
+p <- p %>% layout(
+  title = "SAEs Over Time",
+  height = 700,
+  width = 900,
+  
+  # Axes
+  xaxis = list(
+    title = "Time",
+    type = "date",
+    tickformat = "%b %Y",
+    tickangle = -45
+  ),
+  yaxis = list(title = "Number of Events"),
+  
+  # Legend BELOW the x-axis
+  legend = list(
+    orientation = "h",     # horizontal legend
+    x = 0.5,               # center it
+    y = -0.25,             # move it below the plot
+    xanchor = "center",
+    yanchor = "top",
+    bgcolor = "rgba(255,255,255,0)",  # transparent background
+    traceorder = "normal"
+  ),
+  
+  # Dropdown menu above the plot, outside plotting area
+  updatemenus = list(
+    list(
+      y = 1.15,         # above plot
+      x = 0,            # left side
+      xanchor = "left",
+      yanchor = "top",
+      buttons = buttons
+    )
+  ),
+  
+  # Margins to give space for dropdown and legend
+  margin = list(
+    t = 120,   # top margin for dropdown
+    l = 80,    # left margin for y-axis
+    r = 50,    # right margin
+    b = 100    # bottom margin for x-axis labels
+  )
+)
+
+p
+
+
+```
+
+# Patient retention
+
+## Column 
+
+### Row
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| label: Patient dropout per country
+#| title: Patient dropout per country
+dropout_summary <- dat %>%
+  group_by(country) %>%
+  summarise(
+    n_patients = n(),
+    n_dropouts = sum(dropout, na.rm = TRUE),
+    pct_dropouts = round((n_dropouts / n_patients) * 100, 1),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(pct_dropouts))
+
+kable(
+  dropout_summary,
+  caption = "Patient Dropouts per City and Country",
+  col.names = c("Country", "Total Patients", "Dropouts", "% Dropouts")
+)
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| label: Dropout reason
+#| title: Dropout reason summary
+
+
+dropout_reasons_summary <- dat %>%
+  filter(dropout == TRUE & !is.na(dropout_reason)) %>%
+  count(dropout_reason, sort = TRUE) %>%
+  mutate(pct = round(n / sum(n) * 100, 1))
+
+kable(
+  fornat = "html",
+  dropout_reasons_summary,
+  caption = "Dropout Reasons Summary",
+  col.names = c("Reason", "Count", "% of <br>All Dropouts"))
+
+
+```
+
+
+### Column {.tabset} 
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 10
+#| fig-width: 10
+#| label: Patient dropout per site
+#| title: Patient dropout per site
+dropout_summary_c <- dat %>%
+  group_by(country, city) %>%
+  summarise(
+    n_patients = n(),
+    n_dropouts = sum(dropout, na.rm = TRUE),
+    pct_dropouts = round((n_dropouts / n_patients) * 100, 1),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(pct_dropouts))
+
+ggplot(dropout_summary_c, aes(x = reorder(city, pct_dropouts), y = pct_dropouts, fill = country)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+   geom_text(aes(label = ifelse(pct_dropouts == 0, "", paste0(pct_dropouts, "%"))),
+            hjust = -0.1, size = 3.5) +
+  coord_flip() +
+  labs(
+    title = "Patient Dropout Rates per City",
+    x = "City",
+    y = "% of Patients Dropped Out",
+    fill = "Country"
+  ) +
+  theme_classic(base_size = 20) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    panel.grid.minor = element_blank()
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))+
+  scale_fill_manual(values = c(unibeIce(),unibeApricot(), unibeGreen(),unibeMint()))
+
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 15
+#| fig-width: 15
+#| label: Patient retention curve
+#| title: Patient retention curve
+
+
+retention_data <- dat %>%
+  mutate(
+    time_days = study_duration_days,
+    event = if_else(dropout, 1, 0),   # 1 = dropped out, 0 = censored (completed)
+    country = factor(country)
+  )
+
+# --- Fit survival curve (retention = 1 - dropout) ---
+fit_retention <- survfit(Surv(time_days, event) ~ country, data = retention_data)
+
+# --- Plot survival (retention) curve ---
+ggsurvplot(
+  fit_retention,
+  data = retention_data,
+  conf.int = F,
+  censor = TRUE,
+  risk.table = TRUE,
+  risk.table.height = 0.25,
+  surv.median.line = "hv",
+  palette = c(unibeIce(),unibeApricot(), unibeGreen(),unibeMint()),
+  ggtheme = theme_classic(base_size = 20),
+  title = "Patient Retention Over Time (Kaplan–Meier Style)",
+  xlab = "Days Since Enrollment",
+  ylab = "Proportion of Patients Remaining",
+  legend.title = "Country",
+  legend.labs = c("France", "Germany", "Italy", "Switzerland"),
+  break.time.by = 200  # sets x-axis breaks every 200 days
+) 
+
+```
+
+# Query reports 
+
+## column
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 15
+#| fig-width: 10
+#| label: Overview of query status per site
+#| title: Overview of query status per site
+query_df <- fread("data/query_df.csv")
+
+ status_q <-  query_df %>% 
+   group_by(query_status,site_id) %>% 
+   summarise(n_status = n(), .groups = "drop")
+
+
+ggplot(status_q, aes(x = site_id, y = n_status, fill = query_status )) +
+  geom_bar(stat = "identity", color = "black", width = 0.7, position = "dodge") +
+  coord_flip() +
+  labs(
+    title = "Overview of query status per site",
+    x = "Site",
+    y = "Number of Queries",
+    fill = "Status"
+  ) +
+  theme_classic(base_size = 20) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    panel.grid.minor = element_blank()
+  ) +
+  scale_fill_manual(values = c(unibeGreen(),unibeIce(), unibeRed()))
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig-align: center
+#| fig-height: 10
+#| fig-width: 10
+#| label: Days to close query per site
+#| title: Days to close query per site
+
+avg_closure_time <- query_df %>%
+  filter(query_status == "Closed") %>%
+  group_by(site_id, country) %>%
+  summarise(
+    avg_days_to_close = mean(days_open, na.rm = TRUE),
+    n_closed_queries = n()
+  ) %>%
+  arrange(desc(avg_days_to_close))
+
+ggplot(avg_closure_time, aes(x = reorder(site_id, avg_days_to_close), y = avg_days_to_close, fill = country)) +
+  geom_col(color = "black") +
+  coord_flip() +
+  labs(
+    title = "Average Query Closure Time by Site",
+    x = "Site",
+    y = "Average Days to Close"
+  ) +
+  theme_classic(base_size = 20) +
+  scale_fill_manual(values = c(unibeIce(),unibeApricot(), unibeGreen(),unibeMint()))
+
+```
+
+# Data Quality 
+
+## column
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: Missing data per form, visit and site
+#| title: Missing data per form, visit and site
+
+
+missing_df <- fread("data/missing_df.csv")
+
+#Aggregate average missing rate per site × form × visit
+
+heatmap_df_3d <- missing_df %>%
+group_by(site_id, form, visit_name) %>%
+summarise(avg_missing = mean(n_missing / n_fields), .groups = "drop")
+
+visits <- c("Screening", "Enrollment", "Visit_1", "Visit_2", 
+            "Visit_3", "Visit_4", "Safety_Followup")
+
+#Start empty plotly object
+
+p <- plot_ly()
+
+#Add a heatmap for each visit
+
+for (i in seq_along(visits)) {
+v <- visits[i]
+df_v <- heatmap_df_3d %>% filter(visit_name == v)
+
+mat <- df_v %>%
+select(-visit_name) %>% # remove visit_name column
+pivot_wider(names_from = form, values_from = avg_missing) %>%
+column_to_rownames(var = "site_id") %>%
+as.matrix()
+
+p <- p %>%
+add_trace(
+z = mat,
+x = colnames(mat),
+y = rownames(mat),
+type = "heatmap",
+colorscale = list(c(0,1), c("white", unibeRed())),
+visible = ifelse(i == 1, TRUE, FALSE),
+name = v,
+hovertemplate = "Site: %{y}Form: %{x}Avg Missing: %{z:.1%}"
+)
+}
+
+#Build dropdown buttons
+
+buttons <- lapply(seq_along(visits), function(i) {
+list(
+label = visits[i],
+method = "update",
+args = list(
+list(visible = sapply(seq_along(visits), function(j) j == i)),
+list(title = paste("Average Missing Data -", visits[i]))
+)
+)
+})
+
+#Layout: center title, give extra top margin, and place dropdown below the plot
+
+p <- p %>%
+layout(
+title = list(
+text = paste("Average Missing Data -", visits[1]),
+x = 0.5,
+xanchor = "center",
+font = list(size = 16)
+),
+xaxis = list(title = "Form", tickangle = -45, automargin = TRUE),
+yaxis = list(title = "Site", automargin = TRUE),
+width = 700,
+height = 800,
+margin = list(l = 120, r = 40, t = 120, b = 120), # larger top & left margins
+updatemenus = list(
+list(
+type = "dropdown",
+direction = "down",
+showactive = TRUE,
+active = 0,
+x = 1.02,          # slightly to the right of the plot area
+xanchor = "left",  # anchor the dropdown to its left edge
+y = 0.5,           # vertically centered on the plot
+yanchor = "middle",
+pad = list(t = 10),
+buttons = buttons
+)
+)
+)
+
+# Center the plot in the chunk (HTML widget)
+p <- htmltools::tags$div(
+  style = "display:flex; justify-content:center; width:100%;",
+  p
+)
+
+#Print the widget
+p
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: Missing data rates per form
+#| title: Missing data rates per form
+
+missing_summary <- missing_df %>%
+group_by(form) %>%
+summarise(
+total_missing = sum(n_missing),
+total_fields = sum(n_fields),
+pct_missing = round(100 * total_missing / total_fields, 1)
+) %>%
+arrange(desc(pct_missing))
+
+missing_summary %>%
+select(Form = form, "Missing (%)" = pct_missing) %>%
+kable("html", escape = FALSE, align = "c") 
+```
+
+
+# Shiny Dashboard 
+
+
+All of these figures and others could be present in an interactive dashboard, accessible at all times for the study team. This service is currently under development.
+
+Dashboard examples:
+
+<https://shiny.posit.co/r/gallery/life-sciences/hospital-data-antimicrobial/>
+
+<https://covid19.ctu.unibe.ch/>

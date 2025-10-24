@@ -1,0 +1,501 @@
+query_id,record_id,site_id,form_name,field_name,query_type,query_status,raised_by,raised_date,closed_date,days_open,query_text,country
+1,1007,Aarau,Labs,lab_glucose,Logic discrepancy,Open,Data Manager,2025-07-04,NA,101,Value inconsistent with related field.,Switzerland
+2,1030,Paris,Visit CRF,weight,Missing data,Answered,Data Manager,2025-06-29,NA,106,"Field left empty, please verify.",France
+3,1064,Sion,Con Meds,ae_start,Missing data,Answered,System Check,2025-03-15,NA,212,"Field left empty, please verify.",Switzerland
+4,1113,Baden,Adverse Events,bp_dia,Incorrect date,Open,Monitor,2025-05-24,NA,142,Date seems inconsistent with visit schedule.,Switzerland
+5,1104,Aarau,Labs,age,Logic discrepancy,Answered,Monitor,2025-01-19,NA,267,Value inconsistent with related field.,Switzerland
+6,1042,Luzern,Vitals,age,Logic discrepancy,Open,Monitor,2025-01-06,NA,280,Value inconsistent with related field.,Switzerland
+7,1111,Bellinzona,Adverse Events,age,Missing data,Open,Monitor,2025-08-18,NA,56,"Field left empty, please verify.",Switzerland
+8,1055,Olten,Adverse Events,ae_severity,Out of range,Closed,Monitor,2025-02-17,2025-03-10,21,Value appears out of expected range.,Switzerland
+9,1008,Bern,Demographics,weight,Incorrect date,Closed,Data Manager,2025-04-12,2025-04-19,7,Date seems inconsistent with visit schedule.,Switzerland
+10,1075,Paris,Vitals,bp_dia,Out of range,Closed,Monitor,2025-09-25,2025-10-08,13,Value appears out of expected range.,France
+11,1067,Basel,Vitals,lab_hb,Logic discrepancy,Open,Data Manager,2025-06-23,NA,112,Value inconsistent with related field.,Switzerland
+12,1004,Verona,Demographics,ae_term,Missing data,Open,System Check,2025-02-08,NA,247,"Field left empty, please verify.",Italy
+13,1101,Berlin,Visit CRF,weight,Out of range,Answered,Monitor,2025-01-14,NA,272,Value appears out of expected range.,Germany
+14,1081,Bellinzona,Demographics,weight,Out of range,Answered,System Check,2025-04-04,NA,192,Value appears out of expected range.,Switzerland
+15,1030,Olten,Labs,ae_term,Missing data,Open,Data Manager,2025-05-21,NA,145,"Field left empty, please verify.",Switzerland
+16,1111,Bern,Labs,lab_hb,Out of range,Closed,Data Manager,2025-04-05,2025-04-18,13,Value appears out of expected range.,Switzerland
+17,1048,Sion,Vitals,bp_dia,Out of range,Open,Data Manager,2025-03-24,NA,203,Value appears out of expected range.,Switzerland
+18,1013,Lugano,Adverse Events,age,Out of range,Open,Data Manager,2025-01-08,NA,278,Value appears out of expected range.,Switzerland
+19,1004,Verona,Visit CRF,ae_severity,Out of range,Open,Monitor,2025-01-11,NA,275,Value appears out of expected range.,Italy
+20,1042,Aarau,Demographics,lab_hb,Out of range,Open,Data Manager,2025-05-12,NA,154,Value appears out of expected range.,Switzerland
+21,1037,Lausanne,Visit CRF,bp_dia,Out of range,Closed,Data Manager,2025-07-25,2025-08-21,27,Value appears out of expected range.,Switzerland
+22,1028,Fribourg,Visit CRF,weight,Text clarification,Closed,Monitor,2025-07-10,2025-08-05,26,Please clarify the text entry.,Switzerland
+23,1043,Basel,Vitals,ae_severity,Incorrect date,Open,Data Manager,2025-03-30,NA,197,Date seems inconsistent with visit schedule.,Switzerland
+24,1047,Lugano,Vitals,ae_severity,Logic discrepancy,Answered,Monitor,2025-03-24,NA,203,Value inconsistent with related field.,Switzerland
+25,1067,Basel,Labs,lab_ast,Missing data,Closed,Data Manager,2025-03-23,2025-03-31,8,"Field left empty, please verify.",Switzerland
+26,1051,St. Gallen,Vitals,bp_dia,Text clarification,Answered,System Check,2025-08-08,NA,66,Please clarify the text entry.,Switzerland
+27,1035,Bern,Vitals,height,Missing data,Open,Monitor,2025-02-19,NA,236,"Field left empty, please verify.",Switzerland
+28,1042,Sion,Vitals,lab_glucose,Logic discrepancy,Closed,Data Manager,2025-03-10,2025-03-22,12,Value inconsistent with related field.,Switzerland
+29,1016,Aarau,Con Meds,ae_severity,Missing data,Closed,Data Manager,2025-08-22,2025-09-05,14,"Field left empty, please verify.",Switzerland
+30,1106,Bern,Labs,bp_sys,Logic discrepancy,Closed,System Check,2025-07-26,2025-08-14,19,Value inconsistent with related field.,Switzerland
+31,1092,Amiens,Adverse Events,lab_ast,Incorrect date,Closed,System Check,2025-01-07,2025-01-13,6,Date seems inconsistent with visit schedule.,France
+32,1109,Olten,Labs,lab_hb,Missing data,Answered,System Check,2025-02-07,NA,248,"Field left empty, please verify.",Switzerland
+33,1017,Berlin,Demographics,gender,Out of range,Closed,Data Manager,2025-04-07,2025-04-26,19,Value appears out of expected range.,Germany
+34,1028,Verona,Labs,bp_dia,Out of range,Open,System Check,2025-03-14,NA,213,Value appears out of expected range.,Italy
+35,1116,Bern,Adverse Events,weight,Missing data,Open,Monitor,2025-03-15,NA,212,"Field left empty, please verify.",Switzerland
+36,1063,Bellinzona,Vitals,ae_term,Missing data,Answered,Monitor,2025-01-18,NA,268,"Field left empty, please verify.",Switzerland
+37,1103,Bern,Adverse Events,bp_sys,Out of range,Closed,Monitor,2025-02-13,2025-02-21,8,Value appears out of expected range.,Switzerland
+38,1054,St. Gallen,Labs,gender,Out of range,Answered,Data Manager,2025-09-23,NA,20,Value appears out of expected range.,Switzerland
+39,1041,Neuchâtel,Adverse Events,age,Missing data,Open,Monitor,2025-09-23,NA,20,"Field left empty, please verify.",Switzerland
+40,1010,Amiens,Visit CRF,age,Text clarification,Closed,Monitor,2025-08-04,2025-08-12,8,Please clarify the text entry.,France
+41,1030,Lausanne,Labs,lab_hb,Missing data,Open,Data Manager,2025-04-24,NA,172,"Field left empty, please verify.",Switzerland
+42,1046,Olten,Adverse Events,bp_sys,Out of range,Answered,Data Manager,2025-09-04,NA,39,Value appears out of expected range.,Switzerland
+43,1028,Lausanne,Con Meds,height,Text clarification,Closed,Data Manager,2025-08-29,2025-08-30,1,Please clarify the text entry.,Switzerland
+44,1114,Neuchâtel,Visit CRF,age,Out of range,Answered,Data Manager,2025-07-02,NA,103,Value appears out of expected range.,Switzerland
+45,1030,Geneva,Con Meds,lab_hb,Out of range,Closed,System Check,2025-05-21,2025-05-27,6,Value appears out of expected range.,Switzerland
+46,1058,Paris,Con Meds,lab_hb,Logic discrepancy,Answered,Monitor,2025-04-25,NA,171,Value inconsistent with related field.,France
+47,1110,Fribourg,Adverse Events,gender,Missing data,Answered,Data Manager,2025-09-10,NA,33,"Field left empty, please verify.",Switzerland
+48,1053,Basel,Demographics,gender,Logic discrepancy,Answered,Data Manager,2025-09-06,NA,37,Value inconsistent with related field.,Switzerland
+49,1115,Verona,Visit CRF,lab_hb,Out of range,Closed,Monitor,2025-09-21,2025-10-19,28,Value appears out of expected range.,Italy
+50,1079,Baden,Demographics,ae_term,Out of range,Answered,Data Manager,2025-08-17,NA,57,Value appears out of expected range.,Switzerland
+51,1018,Aarau,Visit CRF,weight,Out of range,Open,Data Manager,2025-01-04,NA,282,Value appears out of expected range.,Switzerland
+52,1052,Geneva,Con Meds,bp_sys,Missing data,Open,Data Manager,2025-07-13,NA,92,"Field left empty, please verify.",Switzerland
+53,1016,Amiens,Vitals,ae_start,Out of range,Open,Data Manager,2025-09-05,NA,38,Value appears out of expected range.,France
+54,1045,Lausanne,Vitals,ae_term,Incorrect date,Closed,Monitor,2025-02-25,2025-03-07,10,Date seems inconsistent with visit schedule.,Switzerland
+55,1004,Zurich,Vitals,gender,Out of range,Open,Monitor,2025-03-22,NA,205,Value appears out of expected range.,Switzerland
+56,1070,Basel,Visit CRF,gender,Logic discrepancy,Answered,Monitor,2025-02-22,NA,233,Value inconsistent with related field.,Switzerland
+57,1033,Geneva,Adverse Events,bp_sys,Missing data,Closed,Monitor,2025-01-08,2025-01-25,17,"Field left empty, please verify.",Switzerland
+58,1112,St. Gallen,Labs,bp_dia,Incorrect date,Answered,Data Manager,2025-06-22,NA,113,Date seems inconsistent with visit schedule.,Switzerland
+59,1090,Zurich,Visit CRF,bp_sys,Out of range,Answered,Monitor,2025-01-02,NA,284,Value appears out of expected range.,Switzerland
+60,1105,Solothurn,Vitals,lab_glucose,Logic discrepancy,Closed,Monitor,2025-04-12,2025-04-19,7,Value inconsistent with related field.,Switzerland
+61,1063,Zurich,Adverse Events,lab_glucose,Missing data,Open,Data Manager,2025-08-31,NA,43,"Field left empty, please verify.",Switzerland
+62,1066,Verona,Adverse Events,bp_sys,Text clarification,Answered,Data Manager,2025-06-02,NA,133,Please clarify the text entry.,Italy
+63,1093,Basel,Demographics,weight,Out of range,Answered,Monitor,2025-08-08,NA,66,Value appears out of expected range.,Switzerland
+64,1059,Lausanne,Vitals,lab_glucose,Text clarification,Closed,System Check,2025-08-26,2025-09-16,21,Please clarify the text entry.,Switzerland
+65,1057,Fribourg,Adverse Events,ae_term,Missing data,Answered,Monitor,2025-08-07,NA,67,"Field left empty, please verify.",Switzerland
+66,1021,Olten,Visit CRF,ae_severity,Logic discrepancy,Closed,Data Manager,2025-03-04,2025-03-28,24,Value inconsistent with related field.,Switzerland
+67,1024,Sion,Adverse Events,age,Missing data,Closed,Monitor,2025-08-01,2025-08-27,26,"Field left empty, please verify.",Switzerland
+68,1027,Chur,Visit CRF,ae_severity,Out of range,Answered,Data Manager,2025-04-09,NA,187,Value appears out of expected range.,Switzerland
+69,1032,Lausanne,Visit CRF,lab_hb,Logic discrepancy,Answered,System Check,2025-08-18,NA,56,Value inconsistent with related field.,Switzerland
+70,1091,St. Gallen,Con Meds,height,Logic discrepancy,Closed,Data Manager,2025-03-18,2025-04-15,28,Value inconsistent with related field.,Switzerland
+71,1072,Basel,Vitals,lab_ast,Out of range,Closed,System Check,2025-01-16,2025-02-03,18,Value appears out of expected range.,Switzerland
+72,1056,Baden,Labs,age,Logic discrepancy,Open,System Check,2025-06-07,NA,128,Value inconsistent with related field.,Switzerland
+73,1044,Geneva,Demographics,age,Missing data,Open,Monitor,2025-02-10,NA,245,"Field left empty, please verify.",Switzerland
+74,1088,Luzern,Visit CRF,height,Out of range,Closed,System Check,2025-03-21,2025-04-09,19,Value appears out of expected range.,Switzerland
+75,1012,Solothurn,Adverse Events,weight,Missing data,Answered,Monitor,2025-04-15,NA,181,"Field left empty, please verify.",Switzerland
+76,1081,Zurich,Con Meds,weight,Text clarification,Open,Data Manager,2025-08-27,NA,47,Please clarify the text entry.,Switzerland
+77,1083,Sion,Con Meds,bp_dia,Missing data,Answered,Monitor,2025-09-05,NA,38,"Field left empty, please verify.",Switzerland
+78,1082,Amiens,Demographics,age,Missing data,Closed,Monitor,2025-06-21,2025-06-27,6,"Field left empty, please verify.",France
+79,1024,Chur,Adverse Events,height,Out of range,Answered,Monitor,2025-04-15,NA,181,Value appears out of expected range.,Switzerland
+80,1066,Geneva,Demographics,lab_hb,Out of range,Open,Data Manager,2025-04-15,NA,181,Value appears out of expected range.,Switzerland
+81,1090,Zurich,Vitals,gender,Incorrect date,Answered,Monitor,2025-07-08,NA,97,Date seems inconsistent with visit schedule.,Switzerland
+82,1036,Solothurn,Visit CRF,ae_severity,Out of range,Answered,Monitor,2025-04-15,NA,181,Value appears out of expected range.,Switzerland
+83,1034,Baden,Vitals,bp_sys,Out of range,Open,Monitor,2025-08-10,NA,64,Value appears out of expected range.,Switzerland
+84,1087,Geneva,Vitals,bp_dia,Missing data,Closed,Data Manager,2025-01-30,2025-02-01,2,"Field left empty, please verify.",Switzerland
+85,1069,Chur,Adverse Events,bp_dia,Logic discrepancy,Closed,Monitor,2025-04-07,2025-04-12,5,Value inconsistent with related field.,Switzerland
+86,1117,Chur,Adverse Events,lab_hb,Out of range,Open,Monitor,2025-03-11,NA,216,Value appears out of expected range.,Switzerland
+87,1001,Zurich,Vitals,bp_sys,Out of range,Closed,Data Manager,2025-05-19,2025-06-17,29,Value appears out of expected range.,Switzerland
+88,1032,Aarau,Visit CRF,bp_sys,Text clarification,Closed,Monitor,2025-07-02,2025-07-19,17,Please clarify the text entry.,Switzerland
+89,1054,Sion,Vitals,height,Missing data,Closed,System Check,2025-05-25,2025-06-18,24,"Field left empty, please verify.",Switzerland
+90,1008,Lugano,Labs,bp_dia,Missing data,Open,Data Manager,2025-09-25,NA,18,"Field left empty, please verify.",Switzerland
+91,1024,Luzern,Con Meds,bp_sys,Missing data,Closed,Monitor,2025-05-25,2025-06-01,7,"Field left empty, please verify.",Switzerland
+92,1026,Solothurn,Demographics,weight,Logic discrepancy,Open,Monitor,2025-07-07,NA,98,Value inconsistent with related field.,Switzerland
+93,1079,Berlin,Vitals,lab_glucose,Logic discrepancy,Answered,Monitor,2025-06-13,NA,122,Value inconsistent with related field.,Germany
+94,1077,Bellinzona,Vitals,weight,Text clarification,Open,Data Manager,2025-01-30,NA,256,Please clarify the text entry.,Switzerland
+95,1008,Lugano,Adverse Events,ae_term,Missing data,Answered,Monitor,2025-07-05,NA,100,"Field left empty, please verify.",Switzerland
+96,1037,Berlin,Adverse Events,lab_ast,Out of range,Closed,Monitor,2025-08-08,2025-08-11,3,Value appears out of expected range.,Germany
+97,1076,Luzern,Adverse Events,lab_ast,Out of range,Open,Data Manager,2025-05-14,NA,152,Value appears out of expected range.,Switzerland
+98,1100,Basel,Labs,bp_dia,Text clarification,Closed,System Check,2025-01-07,2025-01-27,20,Please clarify the text entry.,Switzerland
+99,1101,Luzern,Vitals,bp_sys,Text clarification,Open,Monitor,2025-05-09,NA,157,Please clarify the text entry.,Switzerland
+100,1005,Olten,Con Meds,ae_start,Missing data,Open,Data Manager,2025-08-13,NA,61,"Field left empty, please verify.",Switzerland
+101,1062,Basel,Labs,gender,Logic discrepancy,Closed,Data Manager,2025-06-18,2025-06-22,4,Value inconsistent with related field.,Switzerland
+102,1063,Zurich,Con Meds,gender,Out of range,Closed,Data Manager,2025-08-18,2025-09-10,23,Value appears out of expected range.,Switzerland
+103,1023,Bern,Demographics,lab_ast,Out of range,Closed,Monitor,2025-03-04,2025-03-26,22,Value appears out of expected range.,Switzerland
+104,1043,Sion,Demographics,age,Missing data,Closed,System Check,2025-01-06,2025-01-18,12,"Field left empty, please verify.",Switzerland
+105,1001,Berlin,Con Meds,lab_hb,Logic discrepancy,Closed,System Check,2025-07-03,2025-07-16,13,Value inconsistent with related field.,Germany
+106,1033,Fribourg,Vitals,lab_glucose,Logic discrepancy,Open,System Check,2025-06-28,NA,107,Value inconsistent with related field.,Switzerland
+107,1052,Basel,Vitals,lab_ast,Text clarification,Open,System Check,2025-01-29,NA,257,Please clarify the text entry.,Switzerland
+108,1008,Neuchâtel,Vitals,bp_dia,Logic discrepancy,Open,Data Manager,2025-05-31,NA,135,Value inconsistent with related field.,Switzerland
+109,1088,Verona,Demographics,bp_dia,Logic discrepancy,Open,Monitor,2025-01-11,NA,275,Value inconsistent with related field.,Italy
+110,1005,Paris,Demographics,ae_severity,Incorrect date,Closed,Monitor,2025-07-12,2025-07-13,1,Date seems inconsistent with visit schedule.,France
+111,1075,Amiens,Con Meds,ae_severity,Out of range,Open,Data Manager,2025-04-04,NA,192,Value appears out of expected range.,France
+112,1094,Paris,Vitals,lab_glucose,Logic discrepancy,Closed,Data Manager,2025-03-25,2025-04-18,24,Value inconsistent with related field.,France
+113,1087,Basel,Vitals,age,Missing data,Open,System Check,2025-04-05,NA,191,"Field left empty, please verify.",Switzerland
+114,1001,Solothurn,Con Meds,bp_dia,Out of range,Answered,Data Manager,2025-05-01,NA,165,Value appears out of expected range.,Switzerland
+115,1065,Zurich,Visit CRF,weight,Text clarification,Closed,Data Manager,2025-04-17,2025-05-14,27,Please clarify the text entry.,Switzerland
+116,1024,Aarau,Con Meds,lab_hb,Missing data,Answered,Monitor,2025-03-28,NA,199,"Field left empty, please verify.",Switzerland
+117,1105,Zurich,Adverse Events,age,Missing data,Open,Data Manager,2025-08-13,NA,61,"Field left empty, please verify.",Switzerland
+118,1078,Basel,Visit CRF,lab_ast,Logic discrepancy,Open,Monitor,2025-07-27,NA,78,Value inconsistent with related field.,Switzerland
+119,1015,Amiens,Demographics,height,Missing data,Answered,Data Manager,2025-06-07,NA,128,"Field left empty, please verify.",France
+120,1098,Olten,Visit CRF,lab_glucose,Logic discrepancy,Open,Data Manager,2025-07-30,NA,75,Value inconsistent with related field.,Switzerland
+121,1087,Amiens,Adverse Events,bp_dia,Missing data,Answered,Data Manager,2025-09-23,NA,20,"Field left empty, please verify.",France
+122,1038,Solothurn,Vitals,bp_dia,Logic discrepancy,Closed,Data Manager,2025-03-07,2025-03-10,3,Value inconsistent with related field.,Switzerland
+123,1007,Lausanne,Vitals,lab_ast,Incorrect date,Open,Data Manager,2025-06-25,NA,110,Date seems inconsistent with visit schedule.,Switzerland
+124,1097,Amiens,Vitals,bp_sys,Out of range,Answered,Monitor,2025-08-21,NA,53,Value appears out of expected range.,France
+125,1035,Olten,Con Meds,ae_term,Logic discrepancy,Answered,Data Manager,2025-07-28,NA,77,Value inconsistent with related field.,Switzerland
+126,1110,Sion,Adverse Events,height,Logic discrepancy,Open,System Check,2025-04-21,NA,175,Value inconsistent with related field.,Switzerland
+127,1015,Neuchâtel,Labs,bp_sys,Text clarification,Closed,Monitor,2025-03-26,2025-04-02,7,Please clarify the text entry.,Switzerland
+128,1040,Zurich,Vitals,lab_ast,Incorrect date,Answered,Monitor,2025-09-29,NA,14,Date seems inconsistent with visit schedule.,Switzerland
+129,1117,Olten,Labs,ae_severity,Missing data,Open,Data Manager,2025-04-16,NA,180,"Field left empty, please verify.",Switzerland
+130,1103,Baden,Vitals,bp_sys,Missing data,Closed,Monitor,2025-06-11,2025-06-21,10,"Field left empty, please verify.",Switzerland
+131,1022,Solothurn,Labs,bp_dia,Missing data,Open,Monitor,2025-09-23,NA,20,"Field left empty, please verify.",Switzerland
+132,1051,Olten,Demographics,ae_start,Missing data,Closed,Monitor,2025-04-20,2025-04-29,9,"Field left empty, please verify.",Switzerland
+133,1027,Baden,Visit CRF,age,Missing data,Open,Data Manager,2025-02-17,NA,238,"Field left empty, please verify.",Switzerland
+134,1087,Aarau,Labs,weight,Incorrect date,Answered,Monitor,2025-03-06,NA,221,Date seems inconsistent with visit schedule.,Switzerland
+135,1075,Bern,Con Meds,ae_start,Missing data,Open,Monitor,2025-03-22,NA,205,"Field left empty, please verify.",Switzerland
+136,1086,Solothurn,Adverse Events,ae_term,Out of range,Open,Data Manager,2025-05-09,NA,157,Value appears out of expected range.,Switzerland
+137,1120,Neuchâtel,Visit CRF,lab_hb,Incorrect date,Open,Data Manager,2025-03-20,NA,207,Date seems inconsistent with visit schedule.,Switzerland
+138,1080,Amiens,Adverse Events,height,Text clarification,Closed,Monitor,2025-03-28,2025-04-26,29,Please clarify the text entry.,France
+139,1014,Lugano,Vitals,height,Logic discrepancy,Answered,Data Manager,2025-07-24,NA,81,Value inconsistent with related field.,Switzerland
+140,1050,Bern,Demographics,lab_hb,Out of range,Answered,System Check,2025-08-03,NA,71,Value appears out of expected range.,Switzerland
+141,1095,Bern,Adverse Events,lab_hb,Out of range,Open,Data Manager,2025-05-10,NA,156,Value appears out of expected range.,Switzerland
+142,1046,Aarau,Vitals,age,Logic discrepancy,Answered,System Check,2025-07-08,NA,97,Value inconsistent with related field.,Switzerland
+143,1059,Luzern,Demographics,lab_glucose,Logic discrepancy,Closed,Monitor,2025-08-07,2025-08-19,12,Value inconsistent with related field.,Switzerland
+144,1108,Lugano,Labs,ae_severity,Missing data,Answered,Data Manager,2025-07-24,NA,81,"Field left empty, please verify.",Switzerland
+145,1012,Zurich,Visit CRF,lab_glucose,Out of range,Open,Monitor,2025-09-06,NA,37,Value appears out of expected range.,Switzerland
+146,1030,Lugano,Adverse Events,bp_sys,Missing data,Open,Data Manager,2025-07-16,NA,89,"Field left empty, please verify.",Switzerland
+147,1105,Bern,Demographics,ae_start,Incorrect date,Open,Data Manager,2025-01-05,NA,281,Date seems inconsistent with visit schedule.,Switzerland
+148,1006,Zurich,Visit CRF,age,Missing data,Answered,Data Manager,2025-09-07,NA,36,"Field left empty, please verify.",Switzerland
+149,1056,Lausanne,Con Meds,lab_ast,Out of range,Answered,Monitor,2025-09-18,NA,25,Value appears out of expected range.,Switzerland
+150,1039,Fribourg,Adverse Events,bp_sys,Incorrect date,Answered,Monitor,2025-07-14,NA,91,Date seems inconsistent with visit schedule.,Switzerland
+151,1057,Luzern,Visit CRF,bp_sys,Incorrect date,Answered,Data Manager,2025-05-13,NA,153,Date seems inconsistent with visit schedule.,Switzerland
+152,1058,Bern,Vitals,bp_dia,Text clarification,Open,Monitor,2025-03-06,NA,221,Please clarify the text entry.,Switzerland
+153,1025,Neuchâtel,Con Meds,gender,Missing data,Open,Monitor,2025-05-04,NA,162,"Field left empty, please verify.",Switzerland
+154,1079,Chur,Demographics,gender,Out of range,Open,Monitor,2025-03-30,NA,197,Value appears out of expected range.,Switzerland
+155,1091,Zurich,Con Meds,ae_term,Text clarification,Open,Monitor,2025-09-17,NA,26,Please clarify the text entry.,Switzerland
+156,1048,Bellinzona,Visit CRF,age,Text clarification,Answered,Data Manager,2025-08-02,NA,72,Please clarify the text entry.,Switzerland
+157,1004,Geneva,Labs,ae_term,Missing data,Open,Monitor,2025-03-24,NA,203,"Field left empty, please verify.",Switzerland
+158,1037,Fribourg,Visit CRF,ae_start,Logic discrepancy,Closed,Data Manager,2025-02-04,2025-02-15,11,Value inconsistent with related field.,Switzerland
+159,1043,Olten,Adverse Events,lab_ast,Incorrect date,Answered,Monitor,2025-01-03,NA,283,Date seems inconsistent with visit schedule.,Switzerland
+160,1059,Neuchâtel,Visit CRF,weight,Out of range,Closed,Monitor,2025-02-15,2025-02-27,12,Value appears out of expected range.,Switzerland
+161,1029,Bellinzona,Demographics,age,Out of range,Open,Data Manager,2025-09-20,NA,23,Value appears out of expected range.,Switzerland
+162,1015,Baden,Adverse Events,lab_glucose,Text clarification,Answered,Monitor,2025-07-20,NA,85,Please clarify the text entry.,Switzerland
+163,1002,Lausanne,Vitals,height,Missing data,Closed,Data Manager,2025-03-02,2025-03-05,3,"Field left empty, please verify.",Switzerland
+164,1061,Lausanne,Demographics,lab_glucose,Incorrect date,Answered,Monitor,2025-04-12,NA,184,Date seems inconsistent with visit schedule.,Switzerland
+165,1017,Verona,Demographics,bp_sys,Missing data,Closed,Data Manager,2025-06-01,2025-06-17,16,"Field left empty, please verify.",Italy
+166,1073,Sion,Con Meds,weight,Logic discrepancy,Answered,Monitor,2025-06-29,NA,106,Value inconsistent with related field.,Switzerland
+167,1094,Luzern,Labs,ae_severity,Logic discrepancy,Closed,System Check,2025-01-15,2025-02-04,20,Value inconsistent with related field.,Switzerland
+168,1116,Sion,Vitals,ae_severity,Out of range,Open,Data Manager,2025-05-17,NA,149,Value appears out of expected range.,Switzerland
+169,1049,Solothurn,Vitals,ae_term,Logic discrepancy,Answered,System Check,2025-02-28,NA,227,Value inconsistent with related field.,Switzerland
+170,1031,Bern,Vitals,height,Out of range,Open,Data Manager,2025-08-27,NA,47,Value appears out of expected range.,Switzerland
+171,1014,Bern,Visit CRF,height,Out of range,Closed,Monitor,2025-09-12,2025-09-17,5,Value appears out of expected range.,Switzerland
+172,1014,Fribourg,Labs,bp_sys,Missing data,Answered,Data Manager,2025-08-16,NA,58,"Field left empty, please verify.",Switzerland
+173,1107,Olten,Con Meds,lab_hb,Incorrect date,Open,Monitor,2025-08-10,NA,64,Date seems inconsistent with visit schedule.,Switzerland
+174,1006,Sion,Visit CRF,bp_sys,Missing data,Closed,System Check,2025-01-06,2025-01-19,13,"Field left empty, please verify.",Switzerland
+175,1064,Berlin,Con Meds,lab_ast,Out of range,Answered,Data Manager,2025-04-19,NA,177,Value appears out of expected range.,Germany
+176,1037,Chur,Visit CRF,ae_start,Out of range,Closed,Data Manager,2025-05-04,2025-05-16,12,Value appears out of expected range.,Switzerland
+177,1053,Zurich,Demographics,ae_severity,Incorrect date,Open,Data Manager,2025-03-30,NA,197,Date seems inconsistent with visit schedule.,Switzerland
+178,1100,Zurich,Visit CRF,bp_dia,Out of range,Closed,Monitor,2025-07-30,2025-08-08,9,Value appears out of expected range.,Switzerland
+179,1025,Luzern,Vitals,ae_start,Logic discrepancy,Answered,Monitor,2025-05-14,NA,152,Value inconsistent with related field.,Switzerland
+180,1040,Chur,Visit CRF,bp_dia,Logic discrepancy,Open,Data Manager,2025-03-23,NA,204,Value inconsistent with related field.,Switzerland
+181,1110,Zurich,Visit CRF,weight,Logic discrepancy,Closed,Monitor,2025-02-13,2025-03-07,22,Value inconsistent with related field.,Switzerland
+182,1006,St. Gallen,Con Meds,bp_sys,Out of range,Answered,Monitor,2025-01-31,NA,255,Value appears out of expected range.,Switzerland
+183,1068,Neuchâtel,Con Meds,lab_ast,Logic discrepancy,Open,System Check,2025-04-18,NA,178,Value inconsistent with related field.,Switzerland
+184,1019,Olten,Con Meds,ae_start,Text clarification,Open,Data Manager,2025-05-17,NA,149,Please clarify the text entry.,Switzerland
+185,1078,Solothurn,Labs,lab_glucose,Logic discrepancy,Open,Monitor,2025-04-24,NA,172,Value inconsistent with related field.,Switzerland
+186,1007,Basel,Labs,bp_sys,Missing data,Open,Data Manager,2025-01-19,NA,267,"Field left empty, please verify.",Switzerland
+187,1024,Lausanne,Visit CRF,lab_glucose,Out of range,Closed,Data Manager,2025-05-22,2025-06-14,23,Value appears out of expected range.,Switzerland
+188,1042,Baden,Visit CRF,lab_hb,Missing data,Answered,System Check,2025-03-13,NA,214,"Field left empty, please verify.",Switzerland
+189,1044,Paris,Vitals,gender,Logic discrepancy,Closed,Data Manager,2025-07-29,2025-08-26,28,Value inconsistent with related field.,France
+190,1115,St. Gallen,Con Meds,age,Missing data,Open,Data Manager,2025-07-10,NA,95,"Field left empty, please verify.",Switzerland
+191,1074,St. Gallen,Visit CRF,bp_sys,Missing data,Open,Monitor,2025-09-09,NA,34,"Field left empty, please verify.",Switzerland
+192,1069,St. Gallen,Adverse Events,weight,Out of range,Open,System Check,2025-01-02,NA,284,Value appears out of expected range.,Switzerland
+193,1008,Fribourg,Labs,ae_severity,Missing data,Answered,Monitor,2025-08-16,NA,58,"Field left empty, please verify.",Switzerland
+194,1063,Paris,Adverse Events,gender,Missing data,Closed,Data Manager,2025-05-22,2025-06-06,15,"Field left empty, please verify.",France
+195,1017,Chur,Demographics,height,Logic discrepancy,Open,System Check,2025-07-01,NA,104,Value inconsistent with related field.,Switzerland
+196,1013,Chur,Con Meds,ae_severity,Missing data,Closed,Data Manager,2025-06-02,2025-06-24,22,"Field left empty, please verify.",Switzerland
+197,1035,Olten,Labs,bp_sys,Missing data,Open,System Check,2025-06-13,NA,122,"Field left empty, please verify.",Switzerland
+198,1057,Aarau,Visit CRF,ae_start,Incorrect date,Answered,System Check,2025-04-28,NA,168,Date seems inconsistent with visit schedule.,Switzerland
+199,1090,Geneva,Visit CRF,bp_sys,Text clarification,Answered,System Check,2025-07-17,NA,88,Please clarify the text entry.,Switzerland
+200,1065,Sion,Labs,weight,Missing data,Open,Monitor,2025-02-13,NA,242,"Field left empty, please verify.",Switzerland
+201,1060,Berlin,Demographics,gender,Text clarification,Closed,Data Manager,2025-02-02,2025-02-27,25,Please clarify the text entry.,Germany
+202,1037,Fribourg,Labs,age,Out of range,Closed,Monitor,2025-03-15,2025-03-19,4,Value appears out of expected range.,Switzerland
+203,1022,Berlin,Labs,lab_glucose,Text clarification,Open,Data Manager,2025-01-19,NA,267,Please clarify the text entry.,Germany
+204,1112,Basel,Visit CRF,lab_ast,Missing data,Open,Monitor,2025-09-12,NA,31,"Field left empty, please verify.",Switzerland
+205,1020,Lugano,Con Meds,lab_hb,Logic discrepancy,Answered,System Check,2025-06-02,NA,133,Value inconsistent with related field.,Switzerland
+206,1015,Geneva,Visit CRF,lab_hb,Missing data,Open,Data Manager,2025-04-17,NA,179,"Field left empty, please verify.",Switzerland
+207,1118,Olten,Demographics,height,Logic discrepancy,Closed,System Check,2025-07-21,2025-07-24,3,Value inconsistent with related field.,Switzerland
+208,1037,Solothurn,Visit CRF,weight,Missing data,Closed,Monitor,2025-09-11,2025-10-08,27,"Field left empty, please verify.",Switzerland
+209,1115,Aarau,Vitals,ae_start,Text clarification,Open,Data Manager,2025-02-16,NA,239,Please clarify the text entry.,Switzerland
+210,1039,Chur,Con Meds,bp_sys,Logic discrepancy,Answered,System Check,2025-07-07,NA,98,Value inconsistent with related field.,Switzerland
+211,1023,St. Gallen,Demographics,lab_glucose,Incorrect date,Open,Data Manager,2025-04-13,NA,183,Date seems inconsistent with visit schedule.,Switzerland
+212,1054,Geneva,Vitals,ae_term,Logic discrepancy,Open,Monitor,2025-01-04,NA,282,Value inconsistent with related field.,Switzerland
+213,1097,Fribourg,Labs,lab_ast,Missing data,Answered,System Check,2025-06-11,NA,124,"Field left empty, please verify.",Switzerland
+214,1062,Luzern,Labs,ae_start,Out of range,Open,Data Manager,2025-09-30,NA,13,Value appears out of expected range.,Switzerland
+215,1007,Bern,Adverse Events,gender,Missing data,Open,System Check,2025-06-01,NA,134,"Field left empty, please verify.",Switzerland
+216,1031,Bern,Labs,ae_start,Text clarification,Open,Data Manager,2025-05-09,NA,157,Please clarify the text entry.,Switzerland
+217,1095,Aarau,Adverse Events,gender,Logic discrepancy,Open,Monitor,2025-04-30,NA,166,Value inconsistent with related field.,Switzerland
+218,1103,St. Gallen,Con Meds,ae_severity,Logic discrepancy,Open,Data Manager,2025-07-12,NA,93,Value inconsistent with related field.,Switzerland
+219,1005,Amiens,Visit CRF,bp_sys,Missing data,Open,System Check,2025-06-26,NA,109,"Field left empty, please verify.",France
+220,1031,Lausanne,Visit CRF,lab_ast,Missing data,Answered,Data Manager,2025-04-24,NA,172,"Field left empty, please verify.",Switzerland
+221,1103,Berlin,Labs,bp_dia,Incorrect date,Closed,Data Manager,2025-10-01,2025-10-02,1,Date seems inconsistent with visit schedule.,Germany
+222,1089,Paris,Adverse Events,gender,Missing data,Answered,Data Manager,2025-03-10,NA,217,"Field left empty, please verify.",France
+223,1002,Berlin,Con Meds,weight,Out of range,Answered,Monitor,2025-06-07,NA,128,Value appears out of expected range.,Germany
+224,1075,Bellinzona,Con Meds,ae_term,Missing data,Answered,Data Manager,2025-08-16,NA,58,"Field left empty, please verify.",Switzerland
+225,1034,Luzern,Adverse Events,bp_dia,Text clarification,Answered,Monitor,2025-05-01,NA,165,Please clarify the text entry.,Switzerland
+226,1078,Aarau,Demographics,height,Missing data,Answered,System Check,2025-05-01,NA,165,"Field left empty, please verify.",Switzerland
+227,1094,Geneva,Con Meds,bp_dia,Out of range,Open,Monitor,2025-03-05,NA,222,Value appears out of expected range.,Switzerland
+228,1069,Amiens,Adverse Events,lab_ast,Logic discrepancy,Open,Data Manager,2025-07-23,NA,82,Value inconsistent with related field.,France
+229,1050,St. Gallen,Demographics,weight,Incorrect date,Open,Monitor,2025-06-18,NA,117,Date seems inconsistent with visit schedule.,Switzerland
+230,1016,Bern,Vitals,lab_glucose,Logic discrepancy,Closed,Monitor,2025-09-01,2025-09-10,9,Value inconsistent with related field.,Switzerland
+231,1010,Bellinzona,Con Meds,gender,Missing data,Answered,Data Manager,2025-02-27,NA,228,"Field left empty, please verify.",Switzerland
+232,1089,Zurich,Demographics,bp_sys,Missing data,Answered,Monitor,2025-05-23,NA,143,"Field left empty, please verify.",Switzerland
+233,1042,Solothurn,Vitals,lab_glucose,Logic discrepancy,Open,Data Manager,2025-04-28,NA,168,Value inconsistent with related field.,Switzerland
+234,1030,Neuchâtel,Vitals,weight,Out of range,Answered,Monitor,2025-03-13,NA,214,Value appears out of expected range.,Switzerland
+235,1071,Bellinzona,Visit CRF,lab_ast,Missing data,Answered,Data Manager,2025-08-18,NA,56,"Field left empty, please verify.",Switzerland
+236,1044,St. Gallen,Visit CRF,lab_glucose,Out of range,Closed,Data Manager,2025-04-28,2025-05-22,24,Value appears out of expected range.,Switzerland
+237,1118,Verona,Visit CRF,height,Incorrect date,Closed,Monitor,2025-07-17,2025-07-25,8,Date seems inconsistent with visit schedule.,Italy
+238,1099,Paris,Adverse Events,lab_glucose,Logic discrepancy,Open,Data Manager,2025-09-25,NA,18,Value inconsistent with related field.,France
+239,1014,Berlin,Demographics,lab_ast,Logic discrepancy,Closed,Data Manager,2025-04-26,2025-05-15,19,Value inconsistent with related field.,Germany
+240,1010,Amiens,Demographics,age,Logic discrepancy,Closed,Data Manager,2025-03-17,2025-04-15,29,Value inconsistent with related field.,France
+241,1014,Verona,Adverse Events,bp_dia,Missing data,Open,Data Manager,2025-07-19,NA,86,"Field left empty, please verify.",Italy
+242,1042,Verona,Vitals,ae_term,Missing data,Closed,Monitor,2025-02-07,2025-02-10,3,"Field left empty, please verify.",Italy
+243,1019,Chur,Adverse Events,ae_severity,Logic discrepancy,Open,Monitor,2025-08-04,NA,70,Value inconsistent with related field.,Switzerland
+244,1027,Olten,Vitals,age,Incorrect date,Closed,System Check,2025-02-09,2025-02-11,2,Date seems inconsistent with visit schedule.,Switzerland
+245,1074,Aarau,Demographics,lab_glucose,Out of range,Closed,Monitor,2025-01-24,2025-01-29,5,Value appears out of expected range.,Switzerland
+246,1090,Aarau,Con Meds,age,Logic discrepancy,Answered,Monitor,2025-06-01,NA,134,Value inconsistent with related field.,Switzerland
+247,1076,Bern,Vitals,ae_term,Missing data,Closed,Monitor,2025-02-12,2025-02-14,2,"Field left empty, please verify.",Switzerland
+248,1007,St. Gallen,Demographics,gender,Missing data,Open,Monitor,2025-03-04,NA,223,"Field left empty, please verify.",Switzerland
+249,1060,Lausanne,Vitals,age,Logic discrepancy,Open,System Check,2025-09-08,NA,35,Value inconsistent with related field.,Switzerland
+250,1053,Solothurn,Visit CRF,bp_sys,Missing data,Answered,System Check,2025-04-13,NA,183,"Field left empty, please verify.",Switzerland
+251,1102,Neuchâtel,Demographics,weight,Missing data,Open,Data Manager,2025-01-05,NA,281,"Field left empty, please verify.",Switzerland
+252,1117,Olten,Adverse Events,ae_start,Logic discrepancy,Open,System Check,2025-07-20,NA,85,Value inconsistent with related field.,Switzerland
+253,1102,Lausanne,Vitals,age,Out of range,Answered,Monitor,2025-06-04,NA,131,Value appears out of expected range.,Switzerland
+254,1110,Chur,Con Meds,bp_dia,Logic discrepancy,Open,Data Manager,2025-05-31,NA,135,Value inconsistent with related field.,Switzerland
+255,1082,Lausanne,Visit CRF,lab_ast,Out of range,Open,Monitor,2025-08-05,NA,69,Value appears out of expected range.,Switzerland
+256,1041,Verona,Demographics,ae_severity,Missing data,Open,Data Manager,2025-09-18,NA,25,"Field left empty, please verify.",Italy
+257,1078,Fribourg,Labs,age,Logic discrepancy,Open,Data Manager,2025-03-12,NA,215,Value inconsistent with related field.,Switzerland
+258,1064,Sion,Visit CRF,bp_dia,Missing data,Open,Monitor,2025-01-07,NA,279,"Field left empty, please verify.",Switzerland
+259,1059,Bellinzona,Demographics,bp_dia,Logic discrepancy,Answered,Data Manager,2025-06-13,NA,122,Value inconsistent with related field.,Switzerland
+260,1013,St. Gallen,Adverse Events,lab_ast,Missing data,Answered,System Check,2025-07-05,NA,100,"Field left empty, please verify.",Switzerland
+261,1108,Bellinzona,Adverse Events,bp_sys,Missing data,Answered,Data Manager,2025-08-29,NA,45,"Field left empty, please verify.",Switzerland
+262,1119,Fribourg,Con Meds,bp_dia,Missing data,Closed,Monitor,2025-05-01,2025-05-05,4,"Field left empty, please verify.",Switzerland
+263,1107,Zurich,Demographics,bp_sys,Logic discrepancy,Closed,System Check,2025-08-26,2025-09-06,11,Value inconsistent with related field.,Switzerland
+264,1055,Berlin,Con Meds,ae_severity,Out of range,Closed,Data Manager,2025-08-14,2025-09-06,23,Value appears out of expected range.,Germany
+265,1076,St. Gallen,Demographics,ae_term,Logic discrepancy,Closed,Data Manager,2025-06-19,2025-07-03,14,Value inconsistent with related field.,Switzerland
+266,1105,Aarau,Visit CRF,ae_term,Missing data,Closed,Monitor,2025-04-30,2025-05-17,17,"Field left empty, please verify.",Switzerland
+267,1071,Zurich,Labs,bp_sys,Text clarification,Open,Data Manager,2025-07-13,NA,92,Please clarify the text entry.,Switzerland
+268,1005,Amiens,Adverse Events,weight,Incorrect date,Closed,Data Manager,2025-01-17,2025-02-07,21,Date seems inconsistent with visit schedule.,France
+269,1052,St. Gallen,Labs,ae_start,Logic discrepancy,Closed,System Check,2025-03-12,2025-03-28,16,Value inconsistent with related field.,Switzerland
+270,1106,Luzern,Labs,age,Logic discrepancy,Open,Monitor,2025-03-05,NA,222,Value inconsistent with related field.,Switzerland
+271,1005,Verona,Visit CRF,age,Logic discrepancy,Open,Data Manager,2025-09-21,NA,22,Value inconsistent with related field.,Italy
+272,1024,Bellinzona,Demographics,bp_dia,Missing data,Answered,Monitor,2025-03-23,NA,204,"Field left empty, please verify.",Switzerland
+273,1057,Fribourg,Con Meds,lab_hb,Missing data,Answered,Data Manager,2025-09-17,NA,26,"Field left empty, please verify.",Switzerland
+274,1060,Paris,Visit CRF,weight,Text clarification,Answered,Monitor,2025-02-11,NA,244,Please clarify the text entry.,France
+275,1043,Aarau,Con Meds,ae_term,Text clarification,Closed,Monitor,2025-01-13,2025-02-07,25,Please clarify the text entry.,Switzerland
+276,1076,Luzern,Vitals,lab_glucose,Incorrect date,Open,Monitor,2025-01-23,NA,263,Date seems inconsistent with visit schedule.,Switzerland
+277,1057,Chur,Con Meds,ae_term,Incorrect date,Closed,Monitor,2025-03-07,2025-03-19,12,Date seems inconsistent with visit schedule.,Switzerland
+278,1105,Zurich,Labs,weight,Out of range,Open,Data Manager,2025-02-18,NA,237,Value appears out of expected range.,Switzerland
+279,1103,Olten,Visit CRF,gender,Missing data,Closed,Data Manager,2025-02-23,2025-02-24,1,"Field left empty, please verify.",Switzerland
+280,1033,Bellinzona,Visit CRF,lab_hb,Logic discrepancy,Open,Data Manager,2025-04-29,NA,167,Value inconsistent with related field.,Switzerland
+281,1019,Verona,Con Meds,lab_glucose,Out of range,Closed,System Check,2025-03-08,2025-03-21,13,Value appears out of expected range.,Italy
+282,1055,Lugano,Labs,ae_start,Logic discrepancy,Open,System Check,2025-05-31,NA,135,Value inconsistent with related field.,Switzerland
+283,1028,Lugano,Visit CRF,ae_term,Logic discrepancy,Answered,Monitor,2025-05-09,NA,157,Value inconsistent with related field.,Switzerland
+284,1065,Geneva,Demographics,bp_sys,Incorrect date,Open,Monitor,2025-09-12,NA,31,Date seems inconsistent with visit schedule.,Switzerland
+285,1058,Zurich,Vitals,ae_term,Logic discrepancy,Closed,System Check,2025-03-01,2025-03-31,30,Value inconsistent with related field.,Switzerland
+286,1120,Bern,Con Meds,lab_ast,Logic discrepancy,Closed,System Check,2025-05-26,2025-06-25,30,Value inconsistent with related field.,Switzerland
+287,1032,Berlin,Vitals,lab_hb,Missing data,Closed,Data Manager,2025-05-14,2025-06-09,26,"Field left empty, please verify.",Germany
+288,1003,Aarau,Demographics,lab_ast,Out of range,Open,Monitor,2025-04-22,NA,174,Value appears out of expected range.,Switzerland
+289,1006,Paris,Con Meds,bp_dia,Out of range,Open,Data Manager,2025-05-01,NA,165,Value appears out of expected range.,France
+290,1110,Aarau,Demographics,age,Missing data,Answered,Monitor,2025-04-19,NA,177,"Field left empty, please verify.",Switzerland
+291,1086,Olten,Adverse Events,lab_hb,Missing data,Open,Data Manager,2025-03-26,NA,201,"Field left empty, please verify.",Switzerland
+292,1005,Paris,Labs,lab_glucose,Missing data,Answered,System Check,2025-04-03,NA,193,"Field left empty, please verify.",France
+293,1010,Bellinzona,Con Meds,ae_start,Out of range,Open,Monitor,2025-09-22,NA,21,Value appears out of expected range.,Switzerland
+294,1070,Bellinzona,Visit CRF,lab_ast,Missing data,Closed,Data Manager,2025-09-17,2025-09-27,10,"Field left empty, please verify.",Switzerland
+295,1050,Lugano,Con Meds,bp_dia,Missing data,Open,Monitor,2025-03-13,NA,214,"Field left empty, please verify.",Switzerland
+296,1103,Zurich,Labs,gender,Logic discrepancy,Closed,Monitor,2025-02-10,2025-03-08,26,Value inconsistent with related field.,Switzerland
+297,1036,Geneva,Visit CRF,height,Logic discrepancy,Answered,Monitor,2025-04-07,NA,189,Value inconsistent with related field.,Switzerland
+298,1115,Solothurn,Visit CRF,lab_hb,Incorrect date,Closed,Data Manager,2025-01-17,2025-01-21,4,Date seems inconsistent with visit schedule.,Switzerland
+299,1010,Olten,Vitals,ae_severity,Missing data,Closed,Monitor,2025-08-19,2025-09-16,28,"Field left empty, please verify.",Switzerland
+300,1015,Amiens,Visit CRF,ae_severity,Out of range,Answered,Monitor,2025-06-02,NA,133,Value appears out of expected range.,France
+301,1083,Olten,Vitals,lab_hb,Missing data,Closed,Monitor,2025-04-14,2025-04-28,14,"Field left empty, please verify.",Switzerland
+302,1030,Sion,Adverse Events,lab_ast,Text clarification,Closed,Monitor,2025-08-05,2025-08-22,17,Please clarify the text entry.,Switzerland
+303,1009,Lausanne,Con Meds,height,Missing data,Answered,Data Manager,2025-01-12,NA,274,"Field left empty, please verify.",Switzerland
+304,1055,Lausanne,Labs,lab_hb,Text clarification,Answered,Data Manager,2025-09-08,NA,35,Please clarify the text entry.,Switzerland
+305,1073,Olten,Adverse Events,ae_term,Missing data,Answered,Monitor,2025-04-11,NA,185,"Field left empty, please verify.",Switzerland
+306,1080,Sion,Vitals,bp_dia,Missing data,Answered,Monitor,2025-06-18,NA,117,"Field left empty, please verify.",Switzerland
+307,1003,Luzern,Visit CRF,weight,Missing data,Answered,Data Manager,2025-06-17,NA,118,"Field left empty, please verify.",Switzerland
+308,1059,Solothurn,Adverse Events,ae_severity,Out of range,Open,System Check,2025-07-11,NA,94,Value appears out of expected range.,Switzerland
+309,1061,Chur,Con Meds,lab_ast,Missing data,Closed,System Check,2025-04-26,2025-05-20,24,"Field left empty, please verify.",Switzerland
+310,1035,Zurich,Adverse Events,lab_hb,Out of range,Closed,Data Manager,2025-08-10,2025-08-15,5,Value appears out of expected range.,Switzerland
+311,1081,Berlin,Con Meds,age,Logic discrepancy,Answered,Data Manager,2025-07-24,NA,81,Value inconsistent with related field.,Germany
+312,1112,Bellinzona,Con Meds,gender,Missing data,Open,Monitor,2025-03-13,NA,214,"Field left empty, please verify.",Switzerland
+313,1019,Fribourg,Adverse Events,lab_ast,Logic discrepancy,Open,Data Manager,2025-03-05,NA,222,Value inconsistent with related field.,Switzerland
+314,1078,Baden,Vitals,ae_term,Missing data,Answered,Monitor,2025-06-27,NA,108,"Field left empty, please verify.",Switzerland
+315,1075,Chur,Con Meds,gender,Incorrect date,Closed,Data Manager,2025-08-29,2025-09-21,23,Date seems inconsistent with visit schedule.,Switzerland
+316,1058,Luzern,Adverse Events,ae_severity,Out of range,Open,Monitor,2025-03-17,NA,210,Value appears out of expected range.,Switzerland
+317,1058,Amiens,Demographics,gender,Missing data,Open,Monitor,2025-03-07,NA,220,"Field left empty, please verify.",France
+318,1096,Chur,Labs,bp_sys,Text clarification,Closed,System Check,2025-08-26,2025-09-21,26,Please clarify the text entry.,Switzerland
+319,1102,Sion,Demographics,ae_start,Logic discrepancy,Open,System Check,2025-08-27,NA,47,Value inconsistent with related field.,Switzerland
+320,1006,Solothurn,Vitals,ae_severity,Text clarification,Closed,Data Manager,2025-08-19,2025-09-09,21,Please clarify the text entry.,Switzerland
+321,1120,Basel,Con Meds,weight,Missing data,Open,Data Manager,2025-08-06,NA,68,"Field left empty, please verify.",Switzerland
+322,1088,Aarau,Visit CRF,ae_term,Out of range,Open,Monitor,2025-02-19,NA,236,Value appears out of expected range.,Switzerland
+323,1027,Lugano,Con Meds,bp_dia,Logic discrepancy,Open,Monitor,2025-01-04,NA,282,Value inconsistent with related field.,Switzerland
+324,1117,Berlin,Labs,lab_ast,Incorrect date,Open,Monitor,2025-04-25,NA,171,Date seems inconsistent with visit schedule.,Germany
+325,1039,Solothurn,Visit CRF,ae_severity,Out of range,Open,Data Manager,2025-01-16,NA,270,Value appears out of expected range.,Switzerland
+326,1027,Chur,Visit CRF,age,Missing data,Answered,System Check,2025-04-30,NA,166,"Field left empty, please verify.",Switzerland
+327,1050,Zurich,Con Meds,lab_glucose,Missing data,Open,System Check,2025-05-11,NA,155,"Field left empty, please verify.",Switzerland
+328,1115,Sion,Vitals,lab_glucose,Text clarification,Answered,Monitor,2025-07-12,NA,93,Please clarify the text entry.,Switzerland
+329,1093,Olten,Visit CRF,ae_term,Missing data,Open,Data Manager,2025-02-17,NA,238,"Field left empty, please verify.",Switzerland
+330,1046,Amiens,Con Meds,bp_sys,Out of range,Answered,Data Manager,2025-08-05,NA,69,Value appears out of expected range.,France
+331,1106,Berlin,Demographics,weight,Out of range,Answered,System Check,2025-01-13,NA,273,Value appears out of expected range.,Germany
+332,1103,Fribourg,Demographics,lab_ast,Logic discrepancy,Closed,Data Manager,2025-09-20,2025-10-17,27,Value inconsistent with related field.,Switzerland
+333,1044,Luzern,Visit CRF,height,Text clarification,Open,Data Manager,2025-09-21,NA,22,Please clarify the text entry.,Switzerland
+334,1030,Baden,Demographics,ae_term,Logic discrepancy,Open,Data Manager,2025-03-04,NA,223,Value inconsistent with related field.,Switzerland
+335,1058,Basel,Con Meds,lab_hb,Missing data,Open,Monitor,2025-09-02,NA,41,"Field left empty, please verify.",Switzerland
+336,1001,Verona,Demographics,ae_severity,Missing data,Closed,System Check,2025-09-27,2025-10-07,10,"Field left empty, please verify.",Italy
+337,1105,St. Gallen,Labs,lab_ast,Logic discrepancy,Answered,Monitor,2025-09-11,NA,32,Value inconsistent with related field.,Switzerland
+338,1004,Basel,Labs,bp_dia,Logic discrepancy,Open,Data Manager,2025-06-13,NA,122,Value inconsistent with related field.,Switzerland
+339,1061,Bern,Vitals,ae_term,Out of range,Closed,Data Manager,2025-06-04,2025-06-14,10,Value appears out of expected range.,Switzerland
+340,1006,Aarau,Demographics,bp_sys,Out of range,Answered,Data Manager,2025-08-26,NA,48,Value appears out of expected range.,Switzerland
+341,1040,Verona,Vitals,gender,Out of range,Open,Data Manager,2025-05-04,NA,162,Value appears out of expected range.,Italy
+342,1032,Bellinzona,Labs,gender,Missing data,Open,Data Manager,2025-07-03,NA,102,"Field left empty, please verify.",Switzerland
+343,1053,Neuchâtel,Con Meds,lab_hb,Text clarification,Open,Monitor,2025-05-29,NA,137,Please clarify the text entry.,Switzerland
+344,1044,Solothurn,Demographics,lab_hb,Missing data,Open,Data Manager,2025-02-04,NA,251,"Field left empty, please verify.",Switzerland
+345,1057,Baden,Vitals,lab_ast,Missing data,Answered,System Check,2025-01-23,NA,263,"Field left empty, please verify.",Switzerland
+346,1118,Chur,Vitals,bp_dia,Logic discrepancy,Open,Data Manager,2025-03-09,NA,218,Value inconsistent with related field.,Switzerland
+347,1063,Verona,Vitals,ae_severity,Logic discrepancy,Open,System Check,2025-01-15,NA,271,Value inconsistent with related field.,Italy
+348,1111,St. Gallen,Demographics,age,Missing data,Answered,Monitor,2025-06-21,NA,114,"Field left empty, please verify.",Switzerland
+349,1055,Luzern,Labs,ae_start,Missing data,Open,Data Manager,2025-08-31,NA,43,"Field left empty, please verify.",Switzerland
+350,1033,Bern,Adverse Events,bp_dia,Incorrect date,Open,Data Manager,2025-06-13,NA,122,Date seems inconsistent with visit schedule.,Switzerland
+351,1039,Neuchâtel,Labs,ae_term,Out of range,Open,Data Manager,2025-02-16,NA,239,Value appears out of expected range.,Switzerland
+352,1105,Baden,Con Meds,age,Logic discrepancy,Closed,Monitor,2025-01-28,2025-02-22,25,Value inconsistent with related field.,Switzerland
+353,1089,Olten,Adverse Events,ae_severity,Missing data,Open,Data Manager,2025-10-01,NA,12,"Field left empty, please verify.",Switzerland
+354,1010,Basel,Visit CRF,lab_ast,Missing data,Open,Data Manager,2025-08-25,NA,49,"Field left empty, please verify.",Switzerland
+355,1095,Verona,Demographics,ae_start,Missing data,Answered,Data Manager,2025-07-09,NA,96,"Field left empty, please verify.",Italy
+356,1076,Fribourg,Labs,weight,Missing data,Open,System Check,2025-04-06,NA,190,"Field left empty, please verify.",Switzerland
+357,1089,Neuchâtel,Demographics,height,Missing data,Answered,Monitor,2025-02-01,NA,254,"Field left empty, please verify.",Switzerland
+358,1022,Lausanne,Demographics,lab_hb,Out of range,Open,Monitor,2025-04-03,NA,193,Value appears out of expected range.,Switzerland
+359,1083,St. Gallen,Labs,ae_start,Out of range,Closed,Data Manager,2025-09-24,2025-10-18,24,Value appears out of expected range.,Switzerland
+360,1120,Baden,Labs,weight,Missing data,Closed,Monitor,2025-07-14,2025-07-27,13,"Field left empty, please verify.",Switzerland
+361,1015,Bern,Adverse Events,lab_hb,Text clarification,Answered,System Check,2025-07-01,NA,104,Please clarify the text entry.,Switzerland
+362,1103,Neuchâtel,Vitals,height,Logic discrepancy,Open,Monitor,2025-03-23,NA,204,Value inconsistent with related field.,Switzerland
+363,1015,Basel,Demographics,ae_term,Missing data,Open,Data Manager,2025-02-17,NA,238,"Field left empty, please verify.",Switzerland
+364,1065,Amiens,Vitals,lab_ast,Text clarification,Open,Data Manager,2025-09-28,NA,15,Please clarify the text entry.,France
+365,1072,Lugano,Vitals,age,Missing data,Open,Data Manager,2025-08-22,NA,52,"Field left empty, please verify.",Switzerland
+366,1027,Luzern,Labs,ae_start,Text clarification,Closed,System Check,2025-03-17,2025-04-06,20,Please clarify the text entry.,Switzerland
+367,1062,St. Gallen,Visit CRF,ae_term,Missing data,Closed,Monitor,2025-02-09,2025-02-25,16,"Field left empty, please verify.",Switzerland
+368,1089,St. Gallen,Con Meds,lab_glucose,Out of range,Answered,System Check,2025-04-10,NA,186,Value appears out of expected range.,Switzerland
+369,1067,Amiens,Demographics,ae_term,Out of range,Closed,Monitor,2025-02-21,2025-02-25,4,Value appears out of expected range.,France
+370,1006,Fribourg,Demographics,weight,Out of range,Answered,Monitor,2025-05-24,NA,142,Value appears out of expected range.,Switzerland
+371,1048,Luzern,Adverse Events,gender,Logic discrepancy,Closed,Monitor,2025-06-21,2025-06-28,7,Value inconsistent with related field.,Switzerland
+372,1109,Amiens,Con Meds,lab_glucose,Out of range,Answered,Data Manager,2025-01-13,NA,273,Value appears out of expected range.,France
+373,1003,Zurich,Labs,lab_glucose,Out of range,Closed,Monitor,2025-08-03,2025-08-25,22,Value appears out of expected range.,Switzerland
+374,1002,Amiens,Visit CRF,lab_hb,Out of range,Open,System Check,2025-05-26,NA,140,Value appears out of expected range.,France
+375,1053,Baden,Adverse Events,lab_ast,Logic discrepancy,Answered,Data Manager,2025-06-10,NA,125,Value inconsistent with related field.,Switzerland
+376,1039,Lausanne,Vitals,ae_term,Out of range,Open,Data Manager,2025-06-15,NA,120,Value appears out of expected range.,Switzerland
+377,1091,St. Gallen,Vitals,lab_ast,Text clarification,Open,Monitor,2025-01-25,NA,261,Please clarify the text entry.,Switzerland
+378,1073,Basel,Vitals,age,Missing data,Closed,Data Manager,2025-08-25,2025-09-03,9,"Field left empty, please verify.",Switzerland
+379,1044,Paris,Con Meds,height,Out of range,Open,Monitor,2025-05-13,NA,153,Value appears out of expected range.,France
+380,1119,Lugano,Vitals,lab_hb,Missing data,Open,Monitor,2025-09-30,NA,13,"Field left empty, please verify.",Switzerland
+381,1018,Chur,Vitals,ae_severity,Missing data,Closed,Data Manager,2025-01-06,2025-01-07,1,"Field left empty, please verify.",Switzerland
+382,1065,Paris,Visit CRF,age,Out of range,Open,Monitor,2025-06-19,NA,116,Value appears out of expected range.,France
+383,1016,Aarau,Visit CRF,ae_term,Missing data,Answered,Monitor,2025-08-02,NA,72,"Field left empty, please verify.",Switzerland
+384,1023,Basel,Visit CRF,height,Text clarification,Open,Data Manager,2025-05-17,NA,149,Please clarify the text entry.,Switzerland
+385,1011,Berlin,Demographics,weight,Text clarification,Closed,System Check,2025-03-28,2025-04-08,11,Please clarify the text entry.,Germany
+386,1056,Baden,Visit CRF,bp_dia,Out of range,Answered,System Check,2025-04-21,NA,175,Value appears out of expected range.,Switzerland
+387,1108,Verona,Labs,ae_start,Out of range,Open,Data Manager,2025-09-01,NA,42,Value appears out of expected range.,Italy
+388,1067,Zurich,Labs,lab_glucose,Logic discrepancy,Answered,Monitor,2025-06-22,NA,113,Value inconsistent with related field.,Switzerland
+389,1096,Paris,Adverse Events,height,Missing data,Open,System Check,2025-03-07,NA,220,"Field left empty, please verify.",France
+390,1102,Lausanne,Con Meds,ae_term,Logic discrepancy,Open,Data Manager,2025-01-18,NA,268,Value inconsistent with related field.,Switzerland
+391,1029,St. Gallen,Labs,bp_sys,Missing data,Closed,System Check,2025-06-22,2025-07-14,22,"Field left empty, please verify.",Switzerland
+392,1002,Lausanne,Vitals,ae_start,Out of range,Answered,Data Manager,2025-05-07,NA,159,Value appears out of expected range.,Switzerland
+393,1067,Berlin,Demographics,lab_ast,Logic discrepancy,Closed,System Check,2025-02-22,2025-03-18,24,Value inconsistent with related field.,Germany
+394,1081,Solothurn,Visit CRF,gender,Missing data,Answered,Data Manager,2025-05-19,NA,147,"Field left empty, please verify.",Switzerland
+395,1036,Fribourg,Demographics,weight,Incorrect date,Closed,Data Manager,2025-05-05,2025-05-30,25,Date seems inconsistent with visit schedule.,Switzerland
+396,1004,Geneva,Visit CRF,ae_start,Missing data,Answered,Data Manager,2025-07-27,NA,78,"Field left empty, please verify.",Switzerland
+397,1104,Verona,Demographics,lab_ast,Logic discrepancy,Answered,Data Manager,2025-02-18,NA,237,Value inconsistent with related field.,Italy
+398,1055,Paris,Vitals,lab_hb,Missing data,Open,Monitor,2025-08-07,NA,67,"Field left empty, please verify.",France
+399,1028,Amiens,Labs,bp_dia,Text clarification,Open,Data Manager,2025-01-15,NA,271,Please clarify the text entry.,France
+400,1056,Bellinzona,Adverse Events,height,Logic discrepancy,Closed,System Check,2025-05-02,2025-05-16,14,Value inconsistent with related field.,Switzerland
+401,1087,Lausanne,Vitals,lab_ast,Missing data,Open,Data Manager,2025-01-31,NA,255,"Field left empty, please verify.",Switzerland
+402,1034,Lausanne,Demographics,lab_ast,Out of range,Answered,Data Manager,2025-09-25,NA,18,Value appears out of expected range.,Switzerland
+403,1064,Amiens,Demographics,bp_sys,Logic discrepancy,Closed,Monitor,2025-04-27,2025-04-28,1,Value inconsistent with related field.,France
+404,1027,Paris,Vitals,lab_glucose,Out of range,Closed,Data Manager,2025-04-29,2025-05-12,13,Value appears out of expected range.,France
+405,1061,Paris,Labs,lab_hb,Out of range,Answered,Monitor,2025-09-07,NA,36,Value appears out of expected range.,France
+406,1080,Lausanne,Con Meds,lab_hb,Text clarification,Open,System Check,2025-07-04,NA,101,Please clarify the text entry.,Switzerland
+407,1084,Solothurn,Con Meds,age,Missing data,Open,Monitor,2025-08-01,NA,73,"Field left empty, please verify.",Switzerland
+408,1019,Sion,Labs,ae_severity,Out of range,Open,Monitor,2025-09-18,NA,25,Value appears out of expected range.,Switzerland
+409,1044,Lausanne,Vitals,lab_ast,Incorrect date,Closed,Monitor,2025-05-02,2025-05-06,4,Date seems inconsistent with visit schedule.,Switzerland
+410,1037,Chur,Labs,ae_severity,Logic discrepancy,Answered,Monitor,2025-04-19,NA,177,Value inconsistent with related field.,Switzerland
+411,1032,Paris,Demographics,lab_glucose,Logic discrepancy,Open,Data Manager,2025-10-01,NA,12,Value inconsistent with related field.,France
+412,1110,Lugano,Vitals,height,Missing data,Closed,Data Manager,2025-03-04,2025-03-30,26,"Field left empty, please verify.",Switzerland
+413,1003,St. Gallen,Demographics,weight,Missing data,Open,Data Manager,2025-08-11,NA,63,"Field left empty, please verify.",Switzerland
+414,1033,Amiens,Demographics,bp_dia,Logic discrepancy,Closed,Monitor,2025-04-22,2025-05-18,26,Value inconsistent with related field.,France
+415,1099,Luzern,Labs,lab_hb,Missing data,Answered,Data Manager,2025-03-31,NA,196,"Field left empty, please verify.",Switzerland
+416,1091,Verona,Con Meds,lab_glucose,Logic discrepancy,Answered,Monitor,2025-04-14,NA,182,Value inconsistent with related field.,Italy
+417,1086,Chur,Adverse Events,ae_term,Incorrect date,Closed,Monitor,2025-02-25,2025-03-10,13,Date seems inconsistent with visit schedule.,Switzerland
+418,1047,Baden,Vitals,ae_start,Logic discrepancy,Closed,System Check,2025-01-09,2025-01-30,21,Value inconsistent with related field.,Switzerland
+419,1042,Basel,Visit CRF,age,Out of range,Closed,Data Manager,2025-04-01,2025-04-21,20,Value appears out of expected range.,Switzerland
+420,1049,Paris,Demographics,lab_glucose,Out of range,Open,Data Manager,2025-06-30,NA,105,Value appears out of expected range.,France
+421,1107,Bern,Visit CRF,ae_start,Missing data,Answered,Monitor,2025-08-27,NA,47,"Field left empty, please verify.",Switzerland
+422,1070,Sion,Visit CRF,weight,Out of range,Answered,Monitor,2025-02-24,NA,231,Value appears out of expected range.,Switzerland
+423,1105,Chur,Labs,bp_dia,Missing data,Answered,Monitor,2025-03-12,NA,215,"Field left empty, please verify.",Switzerland
+424,1016,Neuchâtel,Visit CRF,height,Missing data,Closed,Monitor,2025-03-12,2025-03-17,5,"Field left empty, please verify.",Switzerland
+425,1010,St. Gallen,Labs,age,Incorrect date,Open,Data Manager,2025-01-31,NA,255,Date seems inconsistent with visit schedule.,Switzerland
+426,1097,Lausanne,Con Meds,weight,Incorrect date,Answered,Data Manager,2025-06-27,NA,108,Date seems inconsistent with visit schedule.,Switzerland
+427,1044,Basel,Visit CRF,gender,Logic discrepancy,Open,Data Manager,2025-06-12,NA,123,Value inconsistent with related field.,Switzerland
+428,1080,Lausanne,Adverse Events,ae_term,Text clarification,Closed,Data Manager,2025-01-30,2025-02-16,17,Please clarify the text entry.,Switzerland
+429,1098,Zurich,Adverse Events,bp_sys,Logic discrepancy,Open,Monitor,2025-01-31,NA,255,Value inconsistent with related field.,Switzerland
+430,1041,Amiens,Labs,weight,Incorrect date,Open,Monitor,2025-08-05,NA,69,Date seems inconsistent with visit schedule.,France
+431,1052,Paris,Con Meds,lab_ast,Out of range,Open,Data Manager,2025-04-18,NA,178,Value appears out of expected range.,France
+432,1008,Bellinzona,Demographics,lab_hb,Missing data,Open,Data Manager,2025-03-12,NA,215,"Field left empty, please verify.",Switzerland
+433,1014,Neuchâtel,Vitals,gender,Out of range,Open,Data Manager,2025-05-26,NA,140,Value appears out of expected range.,Switzerland
+434,1083,Solothurn,Demographics,lab_ast,Logic discrepancy,Answered,Monitor,2025-06-26,NA,109,Value inconsistent with related field.,Switzerland
+435,1020,Luzern,Labs,lab_hb,Out of range,Answered,Monitor,2025-05-02,NA,164,Value appears out of expected range.,Switzerland
+436,1099,Lugano,Labs,height,Missing data,Open,Monitor,2025-03-24,NA,203,"Field left empty, please verify.",Switzerland
+437,1059,Basel,Vitals,ae_start,Missing data,Closed,System Check,2025-04-09,2025-05-04,25,"Field left empty, please verify.",Switzerland
+438,1087,Fribourg,Visit CRF,gender,Incorrect date,Closed,System Check,2025-06-22,2025-07-08,16,Date seems inconsistent with visit schedule.,Switzerland
+439,1059,Neuchâtel,Adverse Events,bp_dia,Missing data,Closed,Monitor,2025-03-08,2025-03-27,19,"Field left empty, please verify.",Switzerland
+440,1079,Solothurn,Labs,ae_severity,Out of range,Answered,Data Manager,2025-07-21,NA,84,Value appears out of expected range.,Switzerland
+441,1014,Olten,Con Meds,gender,Missing data,Closed,Data Manager,2025-05-23,2025-06-09,17,"Field left empty, please verify.",Switzerland
+442,1013,Sion,Con Meds,lab_hb,Text clarification,Open,Data Manager,2025-04-21,NA,175,Please clarify the text entry.,Switzerland
+443,1101,Baden,Vitals,ae_term,Out of range,Open,System Check,2025-02-06,NA,249,Value appears out of expected range.,Switzerland
+444,1058,Neuchâtel,Vitals,lab_hb,Missing data,Closed,Data Manager,2025-05-28,2025-06-24,27,"Field left empty, please verify.",Switzerland
+445,1011,Solothurn,Demographics,bp_sys,Logic discrepancy,Closed,Monitor,2025-03-25,2025-04-03,9,Value inconsistent with related field.,Switzerland
+446,1109,Verona,Vitals,gender,Text clarification,Closed,System Check,2025-02-09,2025-02-10,1,Please clarify the text entry.,Italy
+447,1068,Zurich,Adverse Events,ae_term,Logic discrepancy,Closed,Data Manager,2025-02-19,2025-03-20,29,Value inconsistent with related field.,Switzerland
+448,1059,Baden,Labs,ae_start,Logic discrepancy,Answered,Monitor,2025-07-05,NA,100,Value inconsistent with related field.,Switzerland
+449,1051,Geneva,Con Meds,bp_dia,Logic discrepancy,Answered,Monitor,2025-04-13,NA,183,Value inconsistent with related field.,Switzerland
+450,1069,Verona,Adverse Events,lab_ast,Out of range,Closed,Data Manager,2025-07-08,2025-07-18,10,Value appears out of expected range.,Italy
+451,1076,Bern,Vitals,ae_start,Missing data,Closed,Data Manager,2025-04-29,2025-05-04,5,"Field left empty, please verify.",Switzerland
+452,1031,Geneva,Visit CRF,lab_ast,Out of range,Closed,Monitor,2025-09-20,2025-09-30,10,Value appears out of expected range.,Switzerland
+453,1071,Chur,Visit CRF,ae_start,Missing data,Closed,System Check,2025-09-24,2025-09-26,2,"Field left empty, please verify.",Switzerland
+454,1001,Sion,Adverse Events,height,Missing data,Closed,Monitor,2025-03-01,2025-03-23,22,"Field left empty, please verify.",Switzerland
+455,1106,Basel,Adverse Events,weight,Missing data,Open,System Check,2025-06-06,NA,129,"Field left empty, please verify.",Switzerland
+456,1113,Aarau,Con Meds,gender,Out of range,Open,Data Manager,2025-03-07,NA,220,Value appears out of expected range.,Switzerland
+457,1099,Basel,Vitals,bp_dia,Incorrect date,Open,Monitor,2025-02-01,NA,254,Date seems inconsistent with visit schedule.,Switzerland
+458,1054,Chur,Vitals,bp_sys,Out of range,Closed,Data Manager,2025-01-11,2025-02-01,21,Value appears out of expected range.,Switzerland
+459,1010,Paris,Adverse Events,bp_sys,Incorrect date,Open,Data Manager,2025-04-02,NA,194,Date seems inconsistent with visit schedule.,France
+460,1041,Solothurn,Demographics,gender,Text clarification,Closed,Data Manager,2025-03-04,2025-03-15,11,Please clarify the text entry.,Switzerland
+461,1011,Bellinzona,Demographics,weight,Text clarification,Answered,Data Manager,2025-01-31,NA,255,Please clarify the text entry.,Switzerland
+462,1111,Basel,Adverse Events,age,Out of range,Answered,Monitor,2025-08-04,NA,70,Value appears out of expected range.,Switzerland
+463,1075,Lugano,Vitals,ae_severity,Logic discrepancy,Closed,Monitor,2025-09-20,2025-10-04,14,Value inconsistent with related field.,Switzerland
+464,1063,St. Gallen,Adverse Events,lab_hb,Logic discrepancy,Closed,Monitor,2025-08-08,2025-08-11,3,Value inconsistent with related field.,Switzerland
+465,1060,Berlin,Demographics,lab_ast,Text clarification,Closed,Data Manager,2025-08-11,2025-09-03,23,Please clarify the text entry.,Germany
+466,1015,Geneva,Vitals,lab_ast,Logic discrepancy,Answered,System Check,2025-05-16,NA,150,Value inconsistent with related field.,Switzerland
+467,1037,Fribourg,Con Meds,lab_hb,Missing data,Closed,Data Manager,2025-02-09,2025-02-10,1,"Field left empty, please verify.",Switzerland
+468,1005,Basel,Demographics,ae_term,Incorrect date,Open,Monitor,2025-09-17,NA,26,Date seems inconsistent with visit schedule.,Switzerland
+469,1004,Geneva,Demographics,lab_ast,Out of range,Answered,Data Manager,2025-08-22,NA,52,Value appears out of expected range.,Switzerland
+470,1019,Solothurn,Labs,lab_hb,Incorrect date,Closed,System Check,2025-05-29,2025-06-12,14,Date seems inconsistent with visit schedule.,Switzerland
+471,1012,Zurich,Visit CRF,lab_glucose,Out of range,Answered,Data Manager,2025-08-03,NA,71,Value appears out of expected range.,Switzerland
+472,1011,Bellinzona,Adverse Events,lab_glucose,Missing data,Open,Data Manager,2025-02-23,NA,232,"Field left empty, please verify.",Switzerland
+473,1007,Luzern,Vitals,ae_start,Text clarification,Answered,Data Manager,2025-01-19,NA,267,Please clarify the text entry.,Switzerland
+474,1008,Neuchâtel,Adverse Events,ae_severity,Missing data,Open,System Check,2025-05-14,NA,152,"Field left empty, please verify.",Switzerland
+475,1054,Fribourg,Vitals,weight,Text clarification,Open,System Check,2025-03-23,NA,204,Please clarify the text entry.,Switzerland
+476,1041,Baden,Visit CRF,ae_severity,Out of range,Closed,Monitor,2025-07-07,2025-07-12,5,Value appears out of expected range.,Switzerland
+477,1010,Neuchâtel,Visit CRF,gender,Logic discrepancy,Closed,Monitor,2025-01-28,2025-02-25,28,Value inconsistent with related field.,Switzerland
+478,1031,Bern,Con Meds,bp_dia,Incorrect date,Answered,Monitor,2025-07-08,NA,97,Date seems inconsistent with visit schedule.,Switzerland
+479,1004,Luzern,Labs,bp_dia,Out of range,Answered,Data Manager,2025-05-20,NA,146,Value appears out of expected range.,Switzerland
+480,1052,Neuchâtel,Adverse Events,ae_severity,Missing data,Open,Data Manager,2025-07-04,NA,101,"Field left empty, please verify.",Switzerland
+481,1089,Berlin,Visit CRF,bp_sys,Missing data,Answered,Data Manager,2025-02-17,NA,238,"Field left empty, please verify.",Germany
+482,1086,Aarau,Vitals,gender,Missing data,Open,Data Manager,2025-07-29,NA,76,"Field left empty, please verify.",Switzerland
+483,1042,Lugano,Adverse Events,weight,Missing data,Closed,System Check,2025-03-25,2025-03-29,4,"Field left empty, please verify.",Switzerland
+484,1116,Paris,Vitals,bp_sys,Missing data,Open,Data Manager,2025-08-09,NA,65,"Field left empty, please verify.",France
+485,1061,Berlin,Demographics,lab_glucose,Missing data,Closed,Monitor,2025-04-09,2025-04-28,19,"Field left empty, please verify.",Germany
+486,1017,Verona,Demographics,ae_severity,Missing data,Open,Data Manager,2025-06-04,NA,131,"Field left empty, please verify.",Italy
+487,1108,Bern,Labs,gender,Out of range,Open,Monitor,2025-01-27,NA,259,Value appears out of expected range.,Switzerland
+488,1052,Basel,Vitals,weight,Missing data,Closed,Monitor,2025-02-03,2025-02-22,19,"Field left empty, please verify.",Switzerland
+489,1109,Olten,Visit CRF,lab_glucose,Out of range,Open,Monitor,2025-02-08,NA,247,Value appears out of expected range.,Switzerland
+490,1037,Geneva,Adverse Events,ae_severity,Out of range,Open,Monitor,2025-02-28,NA,227,Value appears out of expected range.,Switzerland
+491,1067,Luzern,Con Meds,lab_glucose,Text clarification,Answered,Monitor,2025-05-24,NA,142,Please clarify the text entry.,Switzerland
+492,1112,Bellinzona,Vitals,gender,Incorrect date,Answered,Data Manager,2025-03-07,NA,220,Date seems inconsistent with visit schedule.,Switzerland
+493,1015,Solothurn,Adverse Events,ae_severity,Out of range,Answered,System Check,2025-09-22,NA,21,Value appears out of expected range.,Switzerland
+494,1015,Paris,Demographics,gender,Text clarification,Closed,Data Manager,2025-05-23,2025-05-25,2,Please clarify the text entry.,France
+495,1057,Bellinzona,Visit CRF,lab_ast,Out of range,Open,Data Manager,2025-03-29,NA,198,Value appears out of expected range.,Switzerland
+496,1032,Amiens,Adverse Events,height,Missing data,Open,Data Manager,2025-05-27,NA,139,"Field left empty, please verify.",France
+497,1040,Amiens,Demographics,height,Out of range,Answered,Monitor,2025-09-21,NA,22,Value appears out of expected range.,France
+498,1012,Paris,Demographics,ae_start,Logic discrepancy,Open,Monitor,2025-06-10,NA,125,Value inconsistent with related field.,France
+499,1070,Lugano,Visit CRF,lab_ast,Logic discrepancy,Open,Monitor,2025-05-27,NA,139,Value inconsistent with related field.,Switzerland
+500,1020,Fribourg,Labs,ae_start,Missing data,Closed,System Check,2025-02-05,2025-02-17,12,"Field left empty, please verify.",Switzerland
