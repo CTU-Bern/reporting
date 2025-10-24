@@ -7,7 +7,7 @@ The page serves as a showcase of our reporting capabilities.
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 - **Built with:** R and Quarto  
 - **Visualizations:** Plotly & ggplot2  
