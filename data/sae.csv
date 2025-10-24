@@ -1,0 +1,81 @@
+record_id,site_id,event_name,event_onset_date,seriousness_criteria,relatedness,outcome,pH,bicarbonate,anion_gap,urine_ketones,HbA1c,started_antidiabetic_treatment,country,city
+SUBJ0586,CH05,Gout attack,2025-04-09,Other,Possibly related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Bern
+SUBJ0540,CH17,Gout attack,2025-06-11,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0260,CH17,Cardiovascular event,2025-06-19,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0304,CH10,Genital infection,2025-06-21,Other,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0148,CH09,Bone fracture,2025-07-04,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0462,CH02,Bone fracture,2025-07-04,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Baden
+SUBJ0489,CH08,Bone fracture,2025-07-07,Disability,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,St. Gallen
+SUBJ0448,CH03,Cardiovascular event,2025-07-18,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Basel
+SUBJ0391,CH11,Genital infection,2025-07-29,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lugano
+SUBJ0383,CH05,Urinary tract infection,2025-08-15,Hospitalization,Not related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Bern
+SUBJ0425,CH08,Gout attack,2025-09-07,Life-threatening,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,St. Gallen
+SUBJ0049,CH02,Urinary tract infection,2025-09-14,Disability,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Baden
+SUBJ0432,CH02,Ketoacidosis,2025-09-24,Other,Possibly related,Recovered,7.27,13.7,23.7,Positive,NA,NA,Switzerland,Baden
+SUBJ0261,CH15,Genital infection,2025-09-30,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Zurich
+SUBJ0273,CH11,New onset diabetes mellitus,2025-10-04,Hospitalization,Related,Recovered,NA,NA,NA,NA,7.3,Yes,Switzerland,Lugano
+SUBJ0089,CH16,New onset diabetes mellitus,2025-10-06,Hospitalization,Possibly related,Recovered,NA,NA,NA,NA,9.9,Yes,Switzerland,Chur
+SUBJ0489,CH08,Urinary tract infection,2025-10-27,Life-threatening,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,St. Gallen
+SUBJ0056,CH09,Bone fracture,2025-11-02,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0260,CH17,Ketoacidosis,2025-11-18,Hospitalization,Related,Ongoing,6.88,11.9,22.8,Positive,NA,NA,Switzerland,Neuchâtel
+SUBJ0540,CH17,Ketoacidosis,2025-11-25,Hospitalization,Possibly related,Ongoing,7.03,16.3,13.5,Positive,NA,NA,Switzerland,Neuchâtel
+SUBJ0212,CH02,Gout attack,2025-12-01,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Baden
+SUBJ0060,CH06,Bone fracture,2025-12-22,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Fribourg
+SUBJ0597,CH15,Urinary tract infection,2025-12-22,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Zurich
+SUBJ0445,CH14,Gout attack,2025-12-27,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0308,CH12,Genital infection,2026-01-14,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Olten
+SUBJ0039,CH10,Ketoacidosis,2026-01-17,Hospitalization,Possibly related,Recovered,7.24,15.1,14.7,Positive,NA,NA,Switzerland,Luzern
+SUBJ0436,CH15,Genital infection,2026-01-21,Hospitalization,Not related,Fatal,NA,NA,NA,NA,NA,NA,Switzerland,Zurich
+SUBJ0340,CH09,Bone fracture,2026-02-28,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0391,CH11,Cardiovascular event,2026-03-05,Life-threatening,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lugano
+SUBJ0431,CH13,New onset diabetes mellitus,2026-03-16,Disability,Related,Recovered,NA,NA,NA,NA,8.3,Yes,Switzerland,Solothurn
+SUBJ0273,CH11,Gout attack,2026-03-21,Life-threatening,Not related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Lugano
+SUBJ0061,CH08,Bone fracture,2026-04-05,Other,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,St. Gallen
+SUBJ0007,CH01,Gout attack,2026-05-02,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Aarau
+SUBJ0206,CH09,Bone fracture,2026-05-04,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0551,CH16,Gout attack,2026-05-08,Disability,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Chur
+SUBJ0511,CH10,Gout attack,2026-05-12,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0076,CH13,New onset diabetes mellitus,2026-05-17,Disability,Not related,Recovered,NA,NA,NA,NA,8,Yes,Switzerland,Solothurn
+SUBJ0391,CH11,Cardiovascular event,2026-05-22,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lugano
+SUBJ0525,CH16,New onset diabetes mellitus,2026-05-23,Hospitalization,Not related,Recovered,NA,NA,NA,NA,7.7,Yes,Switzerland,Chur
+SUBJ0324,DE01,New onset diabetes mellitus,2026-06-02,Disability,Not related,Recovered,NA,NA,NA,NA,7.2,Yes,Germany,Berlin
+SUBJ0298,FR01,Cardiovascular event,2026-06-19,Hospitalization,Possibly related,Ongoing,NA,NA,NA,NA,NA,NA,France,Paris
+SUBJ0067,FR02,Cardiovascular event,2026-06-24,Other,Related,Ongoing,NA,NA,NA,NA,NA,NA,France,Amiens
+SUBJ0334,CH01,Genital infection,2026-06-26,Hospitalization,Possibly related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Aarau
+SUBJ0039,CH10,Urinary tract infection,2026-07-18,Life-threatening,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0097,CH14,Genital infection,2026-07-18,Life-threatening,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0097,CH14,Cardiovascular event,2026-07-25,Hospitalization,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0015,CH09,Urinary tract infection,2026-09-06,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0554,CH03,Gout attack,2026-09-29,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Basel
+SUBJ0308,CH12,Gout attack,2026-10-13,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Olten
+SUBJ0501,CH10,Bone fracture,2026-10-13,Hospitalization,Possibly related,Fatal,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0260,CH17,Bone fracture,2026-10-19,Life-threatening,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0501,CH10,Cardiovascular event,2026-11-04,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0511,CH10,Ketoacidosis,2026-11-15,Other,Related,Recovered,6.86,14.4,20.1,Positive,NA,NA,Switzerland,Luzern
+SUBJ0156,CH15,Gout attack,2026-11-21,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Zurich
+SUBJ0540,CH17,Urinary tract infection,2026-11-26,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0206,CH09,Cardiovascular event,2026-12-06,Disability,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0481,IT01,Cardiovascular event,2026-12-29,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Italy,Verona
+SUBJ0481,IT01,Cardiovascular event,2027-01-11,Other,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Italy,Verona
+SUBJ0318,CH17,Gout attack,2027-02-02,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0554,CH03,Ketoacidosis,2027-02-18,Hospitalization,Not related,Recovered,7.15,15,19.2,Positive,NA,NA,Switzerland,Basel
+SUBJ0399,CH17,Ketoacidosis,2027-02-28,Hospitalization,Related,Recovered,7.15,16.1,15.7,Positive,NA,NA,Switzerland,Neuchâtel
+SUBJ0081,CH16,New onset diabetes mellitus,2027-03-16,Hospitalization,Related,Ongoing,NA,NA,NA,NA,8.6,Yes,Switzerland,Chur
+SUBJ0122,CH04,New onset diabetes mellitus,2027-04-03,Hospitalization,Not related,Recovered,NA,NA,NA,NA,8.5,No,Switzerland,Bellinzona
+SUBJ0006,CH02,New onset diabetes mellitus,2027-04-05,Hospitalization,Related,Recovered,NA,NA,NA,NA,9.4,Yes,Switzerland,Baden
+SUBJ0422,CH12,Urinary tract infection,2027-04-10,Life-threatening,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Olten
+SUBJ0457,CH14,Gout attack,2027-05-11,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0086,CH17,Cardiovascular event,2027-05-29,Hospitalization,Not related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Neuchâtel
+SUBJ0395,CH09,Gout attack,2027-06-12,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Lausanne
+SUBJ0121,CH14,Genital infection,2027-06-17,Hospitalization,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0511,CH10,Genital infection,2027-06-18,Other,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Luzern
+SUBJ0544,CH07,Gout attack,2027-06-26,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Geneva
+SUBJ0096,CH15,Bone fracture,2027-07-11,Other,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Zurich
+SUBJ0586,CH05,Bone fracture,2027-08-01,Other,Related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Bern
+SUBJ0273,CH11,Urinary tract infection,2027-08-08,Life-threatening,Possibly related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Lugano
+SUBJ0457,CH14,Urinary tract infection,2027-08-28,Life-threatening,Possibly related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0541,FR02,New onset diabetes mellitus,2027-09-04,Hospitalization,Possibly related,Recovered,NA,NA,NA,NA,6.6,Yes,France,Amiens
+SUBJ0401,CH07,New onset diabetes mellitus,2027-11-18,Hospitalization,Related,Recovered,NA,NA,NA,NA,8.1,Yes,Switzerland,Geneva
+SUBJ0097,CH14,Genital infection,2027-11-21,Hospitalization,Not related,Recovered,NA,NA,NA,NA,NA,NA,Switzerland,Sion
+SUBJ0061,CH08,New onset diabetes mellitus,2028-01-17,Other,Related,Recovered,NA,NA,NA,NA,6.9,No,Switzerland,St. Gallen
+SUBJ0011,CH01,Bone fracture,2028-02-16,Hospitalization,Related,Ongoing,NA,NA,NA,NA,NA,NA,Switzerland,Aarau

@@ -1,0 +1,146 @@
+/*-- scss:defaults --*/
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+// --------------------
+// Fonts
+// --------------------
+$font-family-sans-serif: Arial, Helvetica, sans-serif;
+$font-family-monospace: 'Fira Code', monospace;
+$heading-font: Arial, Helvetica, sans-serif;
+
+// --------------------
+// Colors
+// --------------------
+$body-bg: #ffffff;
+$body-color: #000000;
+$link-color: #e4003c; // Unibe red
+$heading-color: #e4003c;
+$selection-bg: #e4003c;
+$code-color: #8a1e22; // Unibe red for code
+$code-bg: #f8f8f8;
+
+// Cards / Panels
+$card-bg: #ffffff;
+$card-border-color: #e0e0e0;
+$card-border-radius: 8px;
+$card-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+/*-- scss:rules --*/
+// --------------------
+// Body & headings
+// --------------------
+body {
+  font-family: $font-family-sans-serif;
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  color: $heading-color;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+
+// --------------------
+// Links
+// --------------------
+a {
+  color: $link-color;
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+}
+
+// --------------------
+// Code blocks
+// --------------------
+pre, code {
+  font-family: $font-family-monospace;
+  color: $code-color;
+  background-color: $code-bg;
+  padding: 0.5em;
+  border-radius: 4px;
+  line-height: 1.3em;
+}
+
+// Code syntax colors (Unibe colors)
+.fu { color: #466553 !important; } // functions
+.st { color: #007ea2 !important; } // strings
+
+// --------------------
+// Cards / Panels
+// --------------------
+.card, .card-body, .dashboard-card {
+  background-color: $card-bg;
+  border: 1px solid $card-border-color;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+// --------------------
+// Tabs / page navigation (top bar)
+// --------------------
+.nav-tabs .nav-link {
+  font-family: $heading-font;
+  font-size: 0.9em;
+  color: $body-color;
+  background-color: $link-color; // RED top tabs
+  border-color: $link-color;
+  margin-right: 2px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff; // active tab text white
+  background-color: darken($link-color, 5%);
+  border-color: darken($link-color, 5%);
+}
+
+// --------------------
+// Sidebar (if used)
+// --------------------
+.sidebar-wrapper {
+  background-color: lighten($body-bg, 5%);
+  font-family: $heading-font;
+  border-right: 1px solid $card-border-color;
+}
+
+// --------------------
+// Utilities
+// --------------------
+.center-x {
+  text-align: center;
+}
+
+/* Top navigation bar */
+.navbar {
+  background-color: #e4003c !important; /* Unibe red */
+  border-bottom: 2px solid darken(#e4003c, 5%) !important;
+}
+
+.navbar a, 
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important; /* White text for all links */
+}
+
+.navbar a:hover,
+.navbar .nav-link:hover {
+  color: #f2f2f2 !important; /* Slightly lighter on hover */
+}
+
+/* Active tab / page */
+.navbar .nav-link.active {
+  background-color: #f4a9b1 !important; /* Unibe pink */
+  color: #8a1e22 !important;            /* Dark red text */
+}
+
+.navbar .nav-link.active:hover {
+  background-color: #f4a9b1 !important; /* keep pink on hover */
+  color: #8a1e22 !important;            /* keep dark red text */
+}

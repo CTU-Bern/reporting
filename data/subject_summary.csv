@@ -1,0 +1,601 @@
+record_id,site_id,country,city,sex,age,enrollment_date,dropout,dropout_date,dropout_reason,completion_status,study_duration_days
+SUBJ0001,CH09,Switzerland,Lausanne,Male,60,2025-02-16,FALSE,NA,NA,Completed,743
+SUBJ0002,CH16,Switzerland,Chur,Female,65,2025-05-05,FALSE,NA,NA,Completed,665
+SUBJ0003,CH10,Switzerland,Luzern,Female,23,2025-04-13,FALSE,NA,NA,Completed,687
+SUBJ0004,CH17,Switzerland,Neuchâtel,Female,85,2025-05-14,FALSE,NA,NA,Completed,656
+SUBJ0005,CH06,Switzerland,Fribourg,Male,80,2025-01-24,TRUE,2026-11-16,Withdrawal of consent,Discontinued,661
+SUBJ0006,CH02,Switzerland,Baden,Male,60,2025-06-13,FALSE,NA,NA,Completed,626
+SUBJ0007,CH01,Switzerland,Aarau,Female,77,2025-02-04,FALSE,NA,NA,Completed,755
+SUBJ0008,CH05,Switzerland,Bern,Female,26,2025-02-03,TRUE,2027-05-14,Investigator decision,Discontinued,830
+SUBJ0009,CH12,Switzerland,Olten,Male,26,2025-05-24,FALSE,NA,NA,Completed,646
+SUBJ0010,CH14,Switzerland,Sion,Female,25,2025-04-08,FALSE,NA,NA,Completed,692
+SUBJ0011,CH01,Switzerland,Aarau,Female,74,2025-06-27,FALSE,NA,NA,Completed,612
+SUBJ0012,CH03,Switzerland,Basel,Female,58,2025-03-17,FALSE,NA,NA,Completed,714
+SUBJ0013,CH10,Switzerland,Luzern,Male,24,2025-04-07,FALSE,NA,NA,Completed,693
+SUBJ0014,DE01,Germany,Berlin,Male,50,2025-06-16,FALSE,NA,NA,Completed,623
+SUBJ0015,CH09,Switzerland,Lausanne,Female,47,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0016,CH02,Switzerland,Baden,Male,82,2025-01-09,FALSE,NA,NA,Completed,781
+SUBJ0017,IT01,Italy,Verona,Male,66,2025-06-18,FALSE,NA,NA,Completed,621
+SUBJ0018,CH16,Switzerland,Chur,Female,57,2025-05-23,FALSE,NA,NA,Completed,647
+SUBJ0019,CH16,Switzerland,Chur,Male,58,2025-06-08,FALSE,NA,NA,Completed,631
+SUBJ0020,DE01,Germany,Berlin,Female,51,2025-05-04,FALSE,NA,NA,Completed,666
+SUBJ0021,CH16,Switzerland,Chur,Female,35,2025-01-01,FALSE,NA,NA,Completed,789
+SUBJ0022,CH15,Switzerland,Zurich,Male,24,2025-03-01,FALSE,NA,NA,Completed,730
+SUBJ0023,CH01,Switzerland,Aarau,Male,30,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0024,CH05,Switzerland,Bern,Female,85,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0025,CH11,Switzerland,Lugano,Female,50,2025-04-13,TRUE,2026-03-19,Investigator decision,Discontinued,340
+SUBJ0026,CH03,Switzerland,Basel,Male,62,2025-06-01,TRUE,2027-01-24,Withdrawal of consent,Discontinued,602
+SUBJ0027,CH15,Switzerland,Zurich,Female,27,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0028,CH10,Switzerland,Luzern,Male,51,2025-06-25,FALSE,NA,NA,Completed,614
+SUBJ0029,CH01,Switzerland,Aarau,Male,71,2025-04-16,FALSE,NA,NA,Completed,684
+SUBJ0030,CH11,Switzerland,Lugano,Female,33,2025-03-12,FALSE,NA,NA,Completed,719
+SUBJ0031,CH08,Switzerland,St. Gallen,Female,36,2025-05-02,FALSE,NA,NA,Completed,668
+SUBJ0032,CH08,Switzerland,St. Gallen,Male,69,2025-05-01,FALSE,NA,NA,Completed,669
+SUBJ0033,CH12,Switzerland,Olten,Male,46,2025-03-19,FALSE,NA,NA,Completed,712
+SUBJ0034,CH16,Switzerland,Chur,Female,27,2025-04-17,FALSE,NA,NA,Completed,683
+SUBJ0035,CH13,Switzerland,Solothurn,Female,34,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0036,CH01,Switzerland,Aarau,Male,66,2025-05-09,TRUE,2027-04-06,Adverse event,Discontinued,697
+SUBJ0037,CH15,Switzerland,Zurich,Female,35,2025-06-20,TRUE,2027-09-01,Withdrawal of consent,Discontinued,803
+SUBJ0038,FR01,France,Paris,Male,43,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0039,CH10,Switzerland,Luzern,Male,72,2025-04-22,FALSE,NA,NA,Completed,678
+SUBJ0040,CH03,Switzerland,Basel,Female,51,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0041,CH16,Switzerland,Chur,Female,38,2025-06-19,FALSE,NA,NA,Completed,620
+SUBJ0042,CH15,Switzerland,Zurich,Female,67,2025-05-17,FALSE,NA,NA,Completed,653
+SUBJ0043,CH08,Switzerland,St. Gallen,Female,82,2025-01-01,FALSE,NA,NA,Completed,789
+SUBJ0044,CH06,Switzerland,Fribourg,Female,28,2025-05-15,FALSE,NA,NA,Completed,655
+SUBJ0045,CH10,Switzerland,Luzern,Female,69,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0046,CH03,Switzerland,Basel,Male,62,2025-05-25,FALSE,NA,NA,Completed,645
+SUBJ0047,DE01,Germany,Berlin,Female,42,2025-02-25,TRUE,2026-06-30,Adverse event,Discontinued,490
+SUBJ0048,CH13,Switzerland,Solothurn,Female,73,2025-06-06,FALSE,NA,NA,Completed,633
+SUBJ0049,CH02,Switzerland,Baden,Female,81,2025-03-18,FALSE,NA,NA,Completed,713
+SUBJ0050,CH03,Switzerland,Basel,Female,70,2025-01-17,FALSE,NA,NA,Completed,773
+SUBJ0051,CH11,Switzerland,Lugano,Male,70,2025-06-16,FALSE,NA,NA,Completed,623
+SUBJ0052,CH17,Switzerland,Neuchâtel,Female,30,2025-05-19,FALSE,NA,NA,Completed,651
+SUBJ0053,CH13,Switzerland,Solothurn,Male,80,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0054,CH17,Switzerland,Neuchâtel,Male,81,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0055,CH12,Switzerland,Olten,Female,58,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0056,CH09,Switzerland,Lausanne,Female,73,2025-02-26,FALSE,NA,NA,Completed,733
+SUBJ0057,CH06,Switzerland,Fribourg,Female,56,2025-01-19,FALSE,NA,NA,Completed,771
+SUBJ0058,IT01,Italy,Verona,Male,36,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0059,CH03,Switzerland,Basel,Male,59,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0060,CH06,Switzerland,Fribourg,Male,60,2025-02-17,FALSE,NA,NA,Completed,742
+SUBJ0061,CH08,Switzerland,St. Gallen,Female,39,2025-05-12,FALSE,NA,NA,Completed,658
+SUBJ0062,CH08,Switzerland,St. Gallen,Male,82,2025-05-04,FALSE,NA,NA,Completed,666
+SUBJ0063,CH10,Switzerland,Luzern,Female,33,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0064,CH03,Switzerland,Basel,Male,51,2025-05-29,FALSE,NA,NA,Completed,641
+SUBJ0065,CH11,Switzerland,Lugano,Female,66,2025-03-20,FALSE,NA,NA,Completed,711
+SUBJ0066,CH17,Switzerland,Neuchâtel,Male,36,2025-06-26,FALSE,NA,NA,Completed,613
+SUBJ0067,FR02,France,Amiens,Male,68,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0068,CH08,Switzerland,St. Gallen,Male,83,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0069,CH09,Switzerland,Lausanne,Female,67,2025-01-16,FALSE,NA,NA,Completed,774
+SUBJ0070,CH12,Switzerland,Olten,Male,75,2025-05-06,FALSE,NA,NA,Completed,664
+SUBJ0071,CH14,Switzerland,Sion,Male,84,2025-01-06,FALSE,NA,NA,Completed,784
+SUBJ0072,CH16,Switzerland,Chur,Male,18,2025-02-19,FALSE,NA,NA,Completed,740
+SUBJ0073,CH16,Switzerland,Chur,Female,82,2025-05-30,FALSE,NA,NA,Completed,640
+SUBJ0074,CH14,Switzerland,Sion,Female,80,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0075,CH06,Switzerland,Fribourg,Female,18,2025-03-19,TRUE,2025-10-31,Adverse event,Discontinued,226
+SUBJ0076,CH13,Switzerland,Solothurn,Female,81,2025-06-30,FALSE,NA,NA,Completed,609
+SUBJ0077,FR02,France,Amiens,Male,59,2025-03-28,TRUE,2026-01-17,Lost to follow-up,Discontinued,295
+SUBJ0078,CH01,Switzerland,Aarau,Female,47,2025-05-19,TRUE,2027-04-19,Withdrawal of consent,Discontinued,700
+SUBJ0079,CH16,Switzerland,Chur,Male,74,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0080,CH02,Switzerland,Baden,Female,19,2025-01-12,TRUE,2026-09-30,Protocol deviation,Discontinued,626
+SUBJ0081,CH16,Switzerland,Chur,Male,34,2025-06-09,FALSE,NA,NA,Completed,630
+SUBJ0082,CH17,Switzerland,Neuchâtel,Male,58,2025-03-01,FALSE,NA,NA,Completed,730
+SUBJ0083,CH02,Switzerland,Baden,Female,82,2025-03-07,FALSE,NA,NA,Completed,724
+SUBJ0084,CH13,Switzerland,Solothurn,Female,20,2025-01-09,TRUE,2026-10-11,Lost to follow-up,Discontinued,640
+SUBJ0085,IT01,Italy,Verona,Male,47,2025-01-18,FALSE,NA,NA,Completed,772
+SUBJ0086,CH17,Switzerland,Neuchâtel,Male,43,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0087,CH01,Switzerland,Aarau,Male,79,2025-06-20,TRUE,2026-09-21,Lost to follow-up,Discontinued,458
+SUBJ0088,CH15,Switzerland,Zurich,Female,55,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0089,CH16,Switzerland,Chur,Female,46,2025-06-04,FALSE,NA,NA,Completed,635
+SUBJ0090,CH10,Switzerland,Luzern,Female,39,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0091,CH01,Switzerland,Aarau,Male,47,2025-05-17,FALSE,NA,NA,Completed,653
+SUBJ0092,CH06,Switzerland,Fribourg,Male,71,2025-03-27,FALSE,NA,NA,Completed,704
+SUBJ0093,CH15,Switzerland,Zurich,Male,55,2025-04-17,TRUE,2027-01-26,Lost to follow-up,Discontinued,649
+SUBJ0094,CH05,Switzerland,Bern,Male,51,2025-06-07,FALSE,NA,NA,Completed,632
+SUBJ0095,CH10,Switzerland,Luzern,Female,35,2025-04-06,TRUE,2027-04-05,Investigator decision,Discontinued,729
+SUBJ0096,CH15,Switzerland,Zurich,Male,44,2025-01-25,FALSE,NA,NA,Completed,765
+SUBJ0097,CH14,Switzerland,Sion,Female,59,2025-04-10,FALSE,NA,NA,Completed,690
+SUBJ0098,CH15,Switzerland,Zurich,Male,40,2025-03-14,FALSE,NA,NA,Completed,717
+SUBJ0099,CH12,Switzerland,Olten,Male,19,2025-02-14,FALSE,NA,NA,Completed,745
+SUBJ0100,CH14,Switzerland,Sion,Female,27,2025-03-17,FALSE,NA,NA,Completed,714
+SUBJ0101,CH15,Switzerland,Zurich,Female,20,2025-02-03,FALSE,NA,NA,Completed,756
+SUBJ0102,CH09,Switzerland,Lausanne,Female,71,2025-04-02,FALSE,NA,NA,Completed,698
+SUBJ0103,CH09,Switzerland,Lausanne,Female,85,2025-04-19,TRUE,2026-07-17,Withdrawal of consent,Discontinued,454
+SUBJ0104,CH01,Switzerland,Aarau,Male,78,2025-01-21,FALSE,NA,NA,Completed,769
+SUBJ0105,CH15,Switzerland,Zurich,Female,30,2025-03-26,FALSE,NA,NA,Completed,705
+SUBJ0106,CH04,Switzerland,Bellinzona,Female,82,2025-05-13,FALSE,NA,NA,Completed,657
+SUBJ0107,CH14,Switzerland,Sion,Female,22,2025-06-29,FALSE,NA,NA,Completed,610
+SUBJ0108,CH10,Switzerland,Luzern,Male,60,2025-06-11,FALSE,NA,NA,Completed,628
+SUBJ0109,CH02,Switzerland,Baden,Male,45,2025-03-19,TRUE,2027-08-02,Adverse event,Discontinued,866
+SUBJ0110,CH08,Switzerland,St. Gallen,Female,57,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0111,CH13,Switzerland,Solothurn,Female,73,2025-03-05,FALSE,NA,NA,Completed,726
+SUBJ0112,FR02,France,Amiens,Male,69,2025-01-25,FALSE,NA,NA,Completed,765
+SUBJ0113,CH01,Switzerland,Aarau,Male,46,2025-04-27,TRUE,2027-07-01,Adverse event,Discontinued,795
+SUBJ0114,CH08,Switzerland,St. Gallen,Female,33,2025-02-17,TRUE,2026-07-31,Lost to follow-up,Discontinued,529
+SUBJ0115,CH15,Switzerland,Zurich,Male,24,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0116,CH05,Switzerland,Bern,Male,72,2025-01-09,FALSE,NA,NA,Completed,781
+SUBJ0117,CH09,Switzerland,Lausanne,Male,62,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0118,CH06,Switzerland,Fribourg,Female,21,2025-04-26,TRUE,2026-05-05,Adverse event,Discontinued,374
+SUBJ0119,FR02,France,Amiens,Female,39,2025-05-02,FALSE,NA,NA,Completed,668
+SUBJ0120,CH10,Switzerland,Luzern,Female,37,2025-05-22,FALSE,NA,NA,Completed,648
+SUBJ0121,CH14,Switzerland,Sion,Male,40,2025-02-10,FALSE,NA,NA,Completed,749
+SUBJ0122,CH04,Switzerland,Bellinzona,Female,71,2025-02-12,FALSE,NA,NA,Completed,747
+SUBJ0123,CH08,Switzerland,St. Gallen,Male,83,2025-06-29,FALSE,NA,NA,Completed,610
+SUBJ0124,CH07,Switzerland,Geneva,Male,53,2025-06-30,TRUE,2026-12-18,Adverse event,Discontinued,536
+SUBJ0125,CH15,Switzerland,Zurich,Female,40,2025-02-26,FALSE,NA,NA,Completed,733
+SUBJ0126,CH17,Switzerland,Neuchâtel,Female,18,2025-01-14,FALSE,NA,NA,Completed,776
+SUBJ0127,CH09,Switzerland,Lausanne,Female,37,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0128,CH07,Switzerland,Geneva,Male,27,2025-06-02,FALSE,NA,NA,Completed,637
+SUBJ0129,CH17,Switzerland,Neuchâtel,Male,38,2025-01-31,FALSE,NA,NA,Completed,759
+SUBJ0130,IT01,Italy,Verona,Female,72,2025-02-05,FALSE,NA,NA,Completed,754
+SUBJ0131,CH02,Switzerland,Baden,Female,33,2025-05-20,FALSE,NA,NA,Completed,650
+SUBJ0132,CH06,Switzerland,Fribourg,Female,47,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0133,CH04,Switzerland,Bellinzona,Female,82,2025-04-06,FALSE,NA,NA,Completed,694
+SUBJ0134,CH06,Switzerland,Fribourg,Female,52,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0135,CH17,Switzerland,Neuchâtel,Female,44,2025-05-29,FALSE,NA,NA,Completed,641
+SUBJ0136,CH01,Switzerland,Aarau,Male,44,2025-02-21,FALSE,NA,NA,Completed,738
+SUBJ0137,CH08,Switzerland,St. Gallen,Male,64,2025-03-28,FALSE,NA,NA,Completed,703
+SUBJ0138,IT01,Italy,Verona,Male,53,2025-06-07,FALSE,NA,NA,Completed,632
+SUBJ0139,CH06,Switzerland,Fribourg,Male,55,2025-05-17,FALSE,NA,NA,Completed,653
+SUBJ0140,CH12,Switzerland,Olten,Female,77,2025-05-11,FALSE,NA,NA,Completed,659
+SUBJ0141,CH09,Switzerland,Lausanne,Female,22,2025-02-22,FALSE,NA,NA,Completed,737
+SUBJ0142,CH01,Switzerland,Aarau,Female,72,2025-06-13,FALSE,NA,NA,Completed,626
+SUBJ0143,CH01,Switzerland,Aarau,Male,26,2025-05-03,FALSE,NA,NA,Completed,667
+SUBJ0144,CH11,Switzerland,Lugano,Female,72,2025-01-31,FALSE,NA,NA,Completed,759
+SUBJ0145,CH11,Switzerland,Lugano,Female,57,2025-03-06,FALSE,NA,NA,Completed,725
+SUBJ0146,CH05,Switzerland,Bern,Female,47,2025-06-17,FALSE,NA,NA,Completed,622
+SUBJ0147,CH12,Switzerland,Olten,Female,65,2025-05-10,FALSE,NA,NA,Completed,660
+SUBJ0148,CH09,Switzerland,Lausanne,Female,83,2025-05-11,FALSE,NA,NA,Completed,659
+SUBJ0149,CH15,Switzerland,Zurich,Male,32,2025-02-17,FALSE,NA,NA,Completed,742
+SUBJ0150,CH01,Switzerland,Aarau,Male,59,2025-04-16,FALSE,NA,NA,Completed,684
+SUBJ0151,CH13,Switzerland,Solothurn,Female,39,2025-06-28,FALSE,NA,NA,Completed,611
+SUBJ0152,CH01,Switzerland,Aarau,Female,71,2025-01-22,FALSE,NA,NA,Completed,768
+SUBJ0153,CH03,Switzerland,Basel,Female,30,2025-06-21,FALSE,NA,NA,Completed,618
+SUBJ0154,CH17,Switzerland,Neuchâtel,Female,60,2025-04-20,FALSE,NA,NA,Completed,680
+SUBJ0155,CH02,Switzerland,Baden,Female,81,2025-02-07,FALSE,NA,NA,Completed,752
+SUBJ0156,CH15,Switzerland,Zurich,Male,28,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0157,CH09,Switzerland,Lausanne,Female,37,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0158,CH10,Switzerland,Luzern,Female,59,2025-01-25,FALSE,NA,NA,Completed,765
+SUBJ0159,CH09,Switzerland,Lausanne,Male,64,2025-03-05,FALSE,NA,NA,Completed,726
+SUBJ0160,FR02,France,Amiens,Male,64,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0161,CH15,Switzerland,Zurich,Female,19,2025-03-07,FALSE,NA,NA,Completed,724
+SUBJ0162,CH11,Switzerland,Lugano,Female,66,2025-06-13,FALSE,NA,NA,Completed,626
+SUBJ0163,FR02,France,Amiens,Female,57,2025-05-08,FALSE,NA,NA,Completed,662
+SUBJ0164,CH08,Switzerland,St. Gallen,Female,44,2025-02-20,FALSE,NA,NA,Completed,739
+SUBJ0165,CH06,Switzerland,Fribourg,Female,79,2025-05-21,FALSE,NA,NA,Completed,649
+SUBJ0166,CH01,Switzerland,Aarau,Female,61,2025-06-26,FALSE,NA,NA,Completed,613
+SUBJ0167,CH09,Switzerland,Lausanne,Male,29,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0168,CH04,Switzerland,Bellinzona,Female,71,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0169,CH12,Switzerland,Olten,Female,59,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0170,CH03,Switzerland,Basel,Female,80,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0171,CH09,Switzerland,Lausanne,Male,21,2025-03-13,FALSE,NA,NA,Completed,718
+SUBJ0172,CH10,Switzerland,Luzern,Male,26,2025-05-28,FALSE,NA,NA,Completed,642
+SUBJ0173,CH04,Switzerland,Bellinzona,Male,66,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0174,CH12,Switzerland,Olten,Male,73,2025-04-23,FALSE,NA,NA,Completed,677
+SUBJ0175,CH10,Switzerland,Luzern,Female,66,2025-06-20,FALSE,NA,NA,Completed,619
+SUBJ0176,CH15,Switzerland,Zurich,Female,42,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0177,CH04,Switzerland,Bellinzona,Female,83,2025-04-13,FALSE,NA,NA,Completed,687
+SUBJ0178,CH02,Switzerland,Baden,Female,27,2025-02-14,FALSE,NA,NA,Completed,745
+SUBJ0179,CH10,Switzerland,Luzern,Female,31,2025-03-26,FALSE,NA,NA,Completed,705
+SUBJ0180,CH17,Switzerland,Neuchâtel,Male,73,2025-05-24,FALSE,NA,NA,Completed,646
+SUBJ0181,CH09,Switzerland,Lausanne,Female,41,2025-01-24,FALSE,NA,NA,Completed,766
+SUBJ0182,CH12,Switzerland,Olten,Female,47,2025-01-21,FALSE,NA,NA,Completed,769
+SUBJ0183,CH05,Switzerland,Bern,Female,65,2025-03-19,FALSE,NA,NA,Completed,712
+SUBJ0184,CH03,Switzerland,Basel,Female,63,2025-03-07,TRUE,2025-10-07,Lost to follow-up,Discontinued,214
+SUBJ0185,CH13,Switzerland,Solothurn,Female,21,2025-02-21,FALSE,NA,NA,Completed,738
+SUBJ0186,CH05,Switzerland,Bern,Female,20,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0187,CH09,Switzerland,Lausanne,Female,32,2025-02-10,TRUE,2025-11-24,Withdrawal of consent,Discontinued,287
+SUBJ0188,CH03,Switzerland,Basel,Female,44,2025-06-28,FALSE,NA,NA,Completed,611
+SUBJ0189,CH17,Switzerland,Neuchâtel,Male,53,2025-03-17,FALSE,NA,NA,Completed,714
+SUBJ0190,IT01,Italy,Verona,Male,19,2025-03-23,FALSE,NA,NA,Completed,708
+SUBJ0191,CH09,Switzerland,Lausanne,Male,72,2025-02-24,TRUE,2026-11-03,Death,Discontinued,617
+SUBJ0192,CH13,Switzerland,Solothurn,Female,54,2025-01-03,TRUE,2026-12-30,Lost to follow-up,Discontinued,726
+SUBJ0193,CH10,Switzerland,Luzern,Male,48,2025-05-29,FALSE,NA,NA,Completed,641
+SUBJ0194,CH09,Switzerland,Lausanne,Female,40,2025-06-26,TRUE,2027-04-18,Adverse event,Discontinued,661
+SUBJ0195,CH14,Switzerland,Sion,Female,35,2025-06-23,FALSE,NA,NA,Completed,616
+SUBJ0196,CH01,Switzerland,Aarau,Female,36,2025-03-10,FALSE,NA,NA,Completed,721
+SUBJ0197,CH08,Switzerland,St. Gallen,Female,41,2025-06-02,FALSE,NA,NA,Completed,637
+SUBJ0198,CH08,Switzerland,St. Gallen,Female,76,2025-02-10,FALSE,NA,NA,Completed,749
+SUBJ0199,CH11,Switzerland,Lugano,Female,20,2025-06-01,FALSE,NA,NA,Completed,638
+SUBJ0200,CH08,Switzerland,St. Gallen,Male,29,2025-04-22,FALSE,NA,NA,Completed,678
+SUBJ0201,CH10,Switzerland,Luzern,Male,45,2025-05-03,TRUE,2026-10-14,Withdrawal of consent,Discontinued,529
+SUBJ0202,CH04,Switzerland,Bellinzona,Female,60,2025-02-11,TRUE,2025-12-25,Withdrawal of consent,Discontinued,317
+SUBJ0203,CH12,Switzerland,Olten,Female,39,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0204,CH05,Switzerland,Bern,Male,25,2025-06-28,FALSE,NA,NA,Completed,611
+SUBJ0205,CH04,Switzerland,Bellinzona,Male,22,2025-02-23,FALSE,NA,NA,Completed,736
+SUBJ0206,CH09,Switzerland,Lausanne,Female,59,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0207,CH04,Switzerland,Bellinzona,Female,79,2025-01-15,FALSE,NA,NA,Completed,775
+SUBJ0208,CH03,Switzerland,Basel,Female,30,2025-04-29,FALSE,NA,NA,Completed,671
+SUBJ0209,DE01,Germany,Berlin,Female,54,2025-06-18,FALSE,NA,NA,Completed,621
+SUBJ0210,CH05,Switzerland,Bern,Female,59,2025-06-23,FALSE,NA,NA,Completed,616
+SUBJ0211,FR01,France,Paris,Female,24,2025-04-03,FALSE,NA,NA,Completed,697
+SUBJ0212,CH02,Switzerland,Baden,Male,61,2025-06-04,FALSE,NA,NA,Completed,635
+SUBJ0213,CH04,Switzerland,Bellinzona,Male,42,2025-01-08,FALSE,NA,NA,Completed,782
+SUBJ0214,CH08,Switzerland,St. Gallen,Female,64,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0215,CH12,Switzerland,Olten,Male,25,2025-01-29,FALSE,NA,NA,Completed,761
+SUBJ0216,CH06,Switzerland,Fribourg,Male,23,2025-03-07,FALSE,NA,NA,Completed,724
+SUBJ0217,CH07,Switzerland,Geneva,Male,28,2025-01-26,FALSE,NA,NA,Completed,764
+SUBJ0218,CH10,Switzerland,Luzern,Male,70,2025-02-22,FALSE,NA,NA,Completed,737
+SUBJ0219,CH09,Switzerland,Lausanne,Female,39,2025-06-23,FALSE,NA,NA,Completed,616
+SUBJ0220,CH08,Switzerland,St. Gallen,Female,84,2025-01-08,FALSE,NA,NA,Completed,782
+SUBJ0221,CH07,Switzerland,Geneva,Female,85,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0222,CH03,Switzerland,Basel,Male,33,2025-06-07,FALSE,NA,NA,Completed,632
+SUBJ0223,CH04,Switzerland,Bellinzona,Male,82,2025-03-28,FALSE,NA,NA,Completed,703
+SUBJ0224,CH12,Switzerland,Olten,Male,27,2025-03-24,FALSE,NA,NA,Completed,707
+SUBJ0225,CH13,Switzerland,Solothurn,Female,46,2025-05-04,FALSE,NA,NA,Completed,666
+SUBJ0226,CH05,Switzerland,Bern,Male,63,2025-01-22,TRUE,2026-07-19,Withdrawal of consent,Discontinued,543
+SUBJ0227,FR02,France,Amiens,Female,21,2025-04-26,FALSE,NA,NA,Completed,674
+SUBJ0228,CH03,Switzerland,Basel,Female,33,2025-02-12,FALSE,NA,NA,Completed,747
+SUBJ0229,CH16,Switzerland,Chur,Male,82,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0230,CH05,Switzerland,Bern,Female,36,2025-04-03,FALSE,NA,NA,Completed,697
+SUBJ0231,CH13,Switzerland,Solothurn,Female,81,2025-06-08,FALSE,NA,NA,Completed,631
+SUBJ0232,CH04,Switzerland,Bellinzona,Female,71,2025-03-19,TRUE,2026-11-07,Withdrawal of consent,Discontinued,598
+SUBJ0233,CH01,Switzerland,Aarau,Female,57,2025-01-01,TRUE,2027-09-02,Adverse event,Discontinued,974
+SUBJ0234,CH05,Switzerland,Bern,Female,27,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0235,CH11,Switzerland,Lugano,Male,31,2025-04-11,FALSE,NA,NA,Completed,689
+SUBJ0236,CH16,Switzerland,Chur,Male,34,2025-04-21,FALSE,NA,NA,Completed,679
+SUBJ0237,CH11,Switzerland,Lugano,Female,28,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0238,CH05,Switzerland,Bern,Male,25,2025-06-20,TRUE,2027-04-06,Withdrawal of consent,Discontinued,655
+SUBJ0239,CH07,Switzerland,Geneva,Female,54,2025-03-27,FALSE,NA,NA,Completed,704
+SUBJ0240,CH06,Switzerland,Fribourg,Male,75,2025-01-11,FALSE,NA,NA,Completed,779
+SUBJ0241,CH10,Switzerland,Luzern,Male,18,2025-02-17,FALSE,NA,NA,Completed,742
+SUBJ0242,CH03,Switzerland,Basel,Male,66,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0243,CH14,Switzerland,Sion,Female,75,2025-02-12,FALSE,NA,NA,Completed,747
+SUBJ0244,CH01,Switzerland,Aarau,Female,79,2025-06-11,FALSE,NA,NA,Completed,628
+SUBJ0245,CH02,Switzerland,Baden,Male,71,2025-01-03,FALSE,NA,NA,Completed,787
+SUBJ0246,IT01,Italy,Verona,Male,50,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0247,CH05,Switzerland,Bern,Female,84,2025-05-16,FALSE,NA,NA,Completed,654
+SUBJ0248,CH01,Switzerland,Aarau,Male,72,2025-06-24,FALSE,NA,NA,Completed,615
+SUBJ0249,CH07,Switzerland,Geneva,Female,64,2025-01-04,FALSE,NA,NA,Completed,786
+SUBJ0250,CH05,Switzerland,Bern,Female,39,2025-01-20,FALSE,NA,NA,Completed,770
+SUBJ0251,CH17,Switzerland,Neuchâtel,Female,79,2025-04-23,FALSE,NA,NA,Completed,677
+SUBJ0252,CH01,Switzerland,Aarau,Male,31,2025-06-28,TRUE,2027-12-07,Adverse event,Discontinued,892
+SUBJ0253,FR02,France,Amiens,Male,43,2025-02-11,FALSE,NA,NA,Completed,748
+SUBJ0254,CH17,Switzerland,Neuchâtel,Male,49,2025-05-29,FALSE,NA,NA,Completed,641
+SUBJ0255,CH02,Switzerland,Baden,Male,37,2025-01-29,FALSE,NA,NA,Completed,761
+SUBJ0256,CH06,Switzerland,Fribourg,Male,73,2025-03-20,FALSE,NA,NA,Completed,711
+SUBJ0257,CH09,Switzerland,Lausanne,Male,85,2025-06-10,FALSE,NA,NA,Completed,629
+SUBJ0258,CH04,Switzerland,Bellinzona,Female,56,2025-05-24,FALSE,NA,NA,Completed,646
+SUBJ0259,CH05,Switzerland,Bern,Female,67,2025-03-18,FALSE,NA,NA,Completed,713
+SUBJ0260,CH17,Switzerland,Neuchâtel,Male,19,2025-01-04,FALSE,NA,NA,Completed,786
+SUBJ0261,CH15,Switzerland,Zurich,Male,38,2025-03-15,FALSE,NA,NA,Completed,716
+SUBJ0262,CH15,Switzerland,Zurich,Female,71,2025-04-12,FALSE,NA,NA,Completed,688
+SUBJ0263,CH12,Switzerland,Olten,Male,45,2025-05-20,FALSE,NA,NA,Completed,650
+SUBJ0264,CH08,Switzerland,St. Gallen,Female,73,2025-06-06,TRUE,2026-10-16,Adverse event,Discontinued,497
+SUBJ0265,CH07,Switzerland,Geneva,Female,55,2025-04-10,FALSE,NA,NA,Completed,690
+SUBJ0266,CH06,Switzerland,Fribourg,Female,83,2025-06-01,FALSE,NA,NA,Completed,638
+SUBJ0267,CH09,Switzerland,Lausanne,Male,24,2025-01-28,FALSE,NA,NA,Completed,762
+SUBJ0268,CH03,Switzerland,Basel,Female,68,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0269,CH05,Switzerland,Bern,Male,31,2025-04-14,FALSE,NA,NA,Completed,686
+SUBJ0270,CH17,Switzerland,Neuchâtel,Female,29,2025-04-07,FALSE,NA,NA,Completed,693
+SUBJ0271,FR02,France,Amiens,Male,59,2025-04-08,FALSE,NA,NA,Completed,692
+SUBJ0272,CH14,Switzerland,Sion,Male,57,2025-04-07,FALSE,NA,NA,Completed,693
+SUBJ0273,CH11,Switzerland,Lugano,Male,27,2025-05-30,FALSE,NA,NA,Completed,640
+SUBJ0274,CH11,Switzerland,Lugano,Female,18,2025-01-22,TRUE,2026-06-29,Lost to follow-up,Discontinued,523
+SUBJ0275,CH14,Switzerland,Sion,Female,79,2025-03-09,FALSE,NA,NA,Completed,722
+SUBJ0276,CH07,Switzerland,Geneva,Male,37,2025-06-10,FALSE,NA,NA,Completed,629
+SUBJ0277,CH07,Switzerland,Geneva,Male,40,2025-05-27,FALSE,NA,NA,Completed,643
+SUBJ0278,CH05,Switzerland,Bern,Male,21,2025-02-05,FALSE,NA,NA,Completed,754
+SUBJ0279,CH01,Switzerland,Aarau,Male,29,2025-05-28,FALSE,NA,NA,Completed,642
+SUBJ0280,CH08,Switzerland,St. Gallen,Male,40,2025-05-14,FALSE,NA,NA,Completed,656
+SUBJ0281,CH13,Switzerland,Solothurn,Female,57,2025-02-09,FALSE,NA,NA,Completed,750
+SUBJ0282,CH01,Switzerland,Aarau,Female,18,2025-06-05,FALSE,NA,NA,Completed,634
+SUBJ0283,CH03,Switzerland,Basel,Female,71,2025-05-02,FALSE,NA,NA,Completed,668
+SUBJ0284,CH02,Switzerland,Baden,Female,83,2025-05-06,FALSE,NA,NA,Completed,664
+SUBJ0285,CH03,Switzerland,Basel,Female,35,2025-06-21,FALSE,NA,NA,Completed,618
+SUBJ0286,CH17,Switzerland,Neuchâtel,Male,68,2025-05-08,FALSE,NA,NA,Completed,662
+SUBJ0287,CH04,Switzerland,Bellinzona,Male,22,2025-04-16,FALSE,NA,NA,Completed,684
+SUBJ0288,CH15,Switzerland,Zurich,Male,51,2025-05-21,FALSE,NA,NA,Completed,649
+SUBJ0289,CH03,Switzerland,Basel,Male,56,2025-04-29,TRUE,2026-11-01,Adverse event,Discontinued,551
+SUBJ0290,CH17,Switzerland,Neuchâtel,Male,66,2025-03-05,FALSE,NA,NA,Completed,726
+SUBJ0291,CH01,Switzerland,Aarau,Male,72,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0292,CH15,Switzerland,Zurich,Female,20,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0293,CH11,Switzerland,Lugano,Male,85,2025-04-30,FALSE,NA,NA,Completed,670
+SUBJ0294,IT01,Italy,Verona,Female,28,2025-04-22,FALSE,NA,NA,Completed,678
+SUBJ0295,CH03,Switzerland,Basel,Male,32,2025-03-20,FALSE,NA,NA,Completed,711
+SUBJ0296,CH13,Switzerland,Solothurn,Male,19,2025-03-31,FALSE,NA,NA,Completed,700
+SUBJ0297,IT01,Italy,Verona,Male,41,2025-06-30,FALSE,NA,NA,Completed,609
+SUBJ0298,FR01,France,Paris,Female,62,2025-02-07,TRUE,2027-05-12,Investigator decision,Discontinued,824
+SUBJ0299,CH11,Switzerland,Lugano,Female,55,2025-04-09,TRUE,2027-07-01,Adverse event,Discontinued,813
+SUBJ0300,CH05,Switzerland,Bern,Male,56,2025-06-13,FALSE,NA,NA,Completed,626
+SUBJ0301,CH09,Switzerland,Lausanne,Male,44,2025-04-18,FALSE,NA,NA,Completed,682
+SUBJ0302,CH05,Switzerland,Bern,Female,61,2025-01-18,FALSE,NA,NA,Completed,772
+SUBJ0303,IT01,Italy,Verona,Female,42,2025-05-21,FALSE,NA,NA,Completed,649
+SUBJ0304,CH10,Switzerland,Luzern,Female,19,2025-01-18,FALSE,NA,NA,Completed,772
+SUBJ0305,CH15,Switzerland,Zurich,Female,35,2025-02-26,FALSE,NA,NA,Completed,733
+SUBJ0306,CH04,Switzerland,Bellinzona,Female,37,2025-04-20,FALSE,NA,NA,Completed,680
+SUBJ0307,CH05,Switzerland,Bern,Male,63,2025-02-26,FALSE,NA,NA,Completed,733
+SUBJ0308,CH12,Switzerland,Olten,Female,82,2025-05-05,FALSE,NA,NA,Completed,665
+SUBJ0309,CH07,Switzerland,Geneva,Female,74,2025-06-01,FALSE,NA,NA,Completed,638
+SUBJ0310,CH02,Switzerland,Baden,Male,62,2025-06-30,FALSE,NA,NA,Completed,609
+SUBJ0311,CH03,Switzerland,Basel,Female,79,2025-01-21,FALSE,NA,NA,Completed,769
+SUBJ0312,CH04,Switzerland,Bellinzona,Female,38,2025-03-24,TRUE,2027-01-15,Adverse event,Discontinued,662
+SUBJ0313,DE01,Germany,Berlin,Male,82,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0314,CH16,Switzerland,Chur,Male,73,2025-03-25,TRUE,2026-02-04,Lost to follow-up,Discontinued,316
+SUBJ0315,CH16,Switzerland,Chur,Female,18,2025-05-16,FALSE,NA,NA,Completed,654
+SUBJ0316,CH17,Switzerland,Neuchâtel,Male,29,2025-02-08,FALSE,NA,NA,Completed,751
+SUBJ0317,CH16,Switzerland,Chur,Male,74,2025-02-15,FALSE,NA,NA,Completed,744
+SUBJ0318,CH17,Switzerland,Neuchâtel,Female,56,2025-04-13,FALSE,NA,NA,Completed,687
+SUBJ0319,CH17,Switzerland,Neuchâtel,Female,72,2025-05-27,FALSE,NA,NA,Completed,643
+SUBJ0320,CH12,Switzerland,Olten,Female,61,2025-04-16,FALSE,NA,NA,Completed,684
+SUBJ0321,CH04,Switzerland,Bellinzona,Female,60,2025-01-22,FALSE,NA,NA,Completed,768
+SUBJ0322,CH17,Switzerland,Neuchâtel,Female,24,2025-03-29,FALSE,NA,NA,Completed,702
+SUBJ0323,CH12,Switzerland,Olten,Female,25,2025-06-21,FALSE,NA,NA,Completed,618
+SUBJ0324,DE01,Germany,Berlin,Male,75,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0325,CH05,Switzerland,Bern,Female,70,2025-04-22,FALSE,NA,NA,Completed,678
+SUBJ0326,CH09,Switzerland,Lausanne,Male,63,2025-04-13,FALSE,NA,NA,Completed,687
+SUBJ0327,CH11,Switzerland,Lugano,Male,35,2025-03-20,TRUE,2025-12-26,Adverse event,Discontinued,281
+SUBJ0328,CH06,Switzerland,Fribourg,Male,84,2025-05-01,FALSE,NA,NA,Completed,669
+SUBJ0329,CH16,Switzerland,Chur,Male,78,2025-01-31,TRUE,2026-07-27,Withdrawal of consent,Discontinued,542
+SUBJ0330,CH16,Switzerland,Chur,Male,78,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0331,CH07,Switzerland,Geneva,Male,54,2025-06-29,FALSE,NA,NA,Completed,610
+SUBJ0332,CH04,Switzerland,Bellinzona,Male,22,2025-02-02,FALSE,NA,NA,Completed,757
+SUBJ0333,CH16,Switzerland,Chur,Female,19,2025-05-20,FALSE,NA,NA,Completed,650
+SUBJ0334,CH01,Switzerland,Aarau,Male,27,2025-06-30,FALSE,NA,NA,Completed,609
+SUBJ0335,CH04,Switzerland,Bellinzona,Female,64,2025-01-25,FALSE,NA,NA,Completed,765
+SUBJ0336,CH14,Switzerland,Sion,Male,59,2025-05-07,TRUE,2027-03-15,Adverse event,Discontinued,677
+SUBJ0337,CH04,Switzerland,Bellinzona,Male,77,2025-06-11,FALSE,NA,NA,Completed,628
+SUBJ0338,CH16,Switzerland,Chur,Female,69,2025-01-18,TRUE,2026-07-22,Withdrawal of consent,Discontinued,550
+SUBJ0339,CH05,Switzerland,Bern,Female,49,2025-05-19,FALSE,NA,NA,Completed,651
+SUBJ0340,CH09,Switzerland,Lausanne,Female,22,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0341,CH04,Switzerland,Bellinzona,Male,59,2025-04-17,FALSE,NA,NA,Completed,683
+SUBJ0342,CH15,Switzerland,Zurich,Female,51,2025-02-11,FALSE,NA,NA,Completed,748
+SUBJ0343,CH02,Switzerland,Baden,Female,20,2025-04-09,FALSE,NA,NA,Completed,691
+SUBJ0344,CH03,Switzerland,Basel,Male,30,2025-05-20,FALSE,NA,NA,Completed,650
+SUBJ0345,CH12,Switzerland,Olten,Female,63,2025-02-25,FALSE,NA,NA,Completed,734
+SUBJ0346,CH01,Switzerland,Aarau,Female,20,2025-06-17,FALSE,NA,NA,Completed,622
+SUBJ0347,CH07,Switzerland,Geneva,Female,84,2025-06-18,FALSE,NA,NA,Completed,621
+SUBJ0348,CH15,Switzerland,Zurich,Male,70,2025-06-05,FALSE,NA,NA,Completed,634
+SUBJ0349,FR02,France,Amiens,Male,73,2025-05-19,FALSE,NA,NA,Completed,651
+SUBJ0350,CH14,Switzerland,Sion,Female,40,2025-05-06,FALSE,NA,NA,Completed,664
+SUBJ0351,CH16,Switzerland,Chur,Male,25,2025-05-31,FALSE,NA,NA,Completed,639
+SUBJ0352,CH16,Switzerland,Chur,Female,63,2025-03-29,FALSE,NA,NA,Completed,702
+SUBJ0353,CH09,Switzerland,Lausanne,Male,21,2025-01-11,FALSE,NA,NA,Completed,779
+SUBJ0354,CH02,Switzerland,Baden,Female,36,2025-04-23,FALSE,NA,NA,Completed,677
+SUBJ0355,CH15,Switzerland,Zurich,Male,26,2025-05-04,FALSE,NA,NA,Completed,666
+SUBJ0356,CH14,Switzerland,Sion,Female,21,2025-04-24,FALSE,NA,NA,Completed,676
+SUBJ0357,CH02,Switzerland,Baden,Female,77,2025-04-17,FALSE,NA,NA,Completed,683
+SUBJ0358,CH15,Switzerland,Zurich,Male,70,2025-05-17,TRUE,2026-08-14,Investigator decision,Discontinued,454
+SUBJ0359,CH07,Switzerland,Geneva,Male,33,2025-01-31,FALSE,NA,NA,Completed,759
+SUBJ0360,CH17,Switzerland,Neuchâtel,Male,24,2025-01-22,TRUE,2026-09-07,Lost to follow-up,Discontinued,593
+SUBJ0361,CH14,Switzerland,Sion,Female,24,2025-04-20,FALSE,NA,NA,Completed,680
+SUBJ0362,CH13,Switzerland,Solothurn,Female,18,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0363,CH05,Switzerland,Bern,Female,32,2025-05-16,FALSE,NA,NA,Completed,654
+SUBJ0364,CH13,Switzerland,Solothurn,Female,59,2025-03-24,FALSE,NA,NA,Completed,707
+SUBJ0365,CH10,Switzerland,Luzern,Male,71,2025-03-02,TRUE,2027-09-21,Lost to follow-up,Discontinued,933
+SUBJ0366,CH14,Switzerland,Sion,Male,63,2025-04-06,FALSE,NA,NA,Completed,694
+SUBJ0367,CH06,Switzerland,Fribourg,Female,72,2025-05-06,TRUE,2027-11-17,Lost to follow-up,Discontinued,925
+SUBJ0368,CH09,Switzerland,Lausanne,Male,70,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0369,CH09,Switzerland,Lausanne,Female,32,2025-01-30,FALSE,NA,NA,Completed,760
+SUBJ0370,CH09,Switzerland,Lausanne,Male,28,2025-02-02,FALSE,NA,NA,Completed,757
+SUBJ0371,CH06,Switzerland,Fribourg,Female,81,2025-05-31,FALSE,NA,NA,Completed,639
+SUBJ0372,CH13,Switzerland,Solothurn,Female,41,2025-04-08,FALSE,NA,NA,Completed,692
+SUBJ0373,CH11,Switzerland,Lugano,Female,71,2025-05-28,TRUE,2026-12-12,Lost to follow-up,Discontinued,563
+SUBJ0374,CH11,Switzerland,Lugano,Male,70,2025-02-16,FALSE,NA,NA,Completed,743
+SUBJ0375,CH05,Switzerland,Bern,Female,52,2025-04-08,FALSE,NA,NA,Completed,692
+SUBJ0376,CH02,Switzerland,Baden,Male,42,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0377,CH11,Switzerland,Lugano,Male,42,2025-06-16,FALSE,NA,NA,Completed,623
+SUBJ0378,CH04,Switzerland,Bellinzona,Female,56,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0379,CH09,Switzerland,Lausanne,Female,54,2025-06-27,FALSE,NA,NA,Completed,612
+SUBJ0380,CH06,Switzerland,Fribourg,Male,26,2025-05-24,FALSE,NA,NA,Completed,646
+SUBJ0381,CH08,Switzerland,St. Gallen,Female,52,2025-05-10,FALSE,NA,NA,Completed,660
+SUBJ0382,CH05,Switzerland,Bern,Male,73,2025-04-01,FALSE,NA,NA,Completed,699
+SUBJ0383,CH05,Switzerland,Bern,Male,83,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0384,CH02,Switzerland,Baden,Female,33,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0385,CH07,Switzerland,Geneva,Male,30,2025-06-16,FALSE,NA,NA,Completed,623
+SUBJ0386,CH01,Switzerland,Aarau,Male,76,2025-04-08,FALSE,NA,NA,Completed,692
+SUBJ0387,CH01,Switzerland,Aarau,Male,26,2025-04-17,FALSE,NA,NA,Completed,683
+SUBJ0388,CH04,Switzerland,Bellinzona,Female,29,2025-01-24,FALSE,NA,NA,Completed,766
+SUBJ0389,CH07,Switzerland,Geneva,Female,69,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0390,CH09,Switzerland,Lausanne,Male,47,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0391,CH11,Switzerland,Lugano,Male,82,2025-01-04,FALSE,NA,NA,Completed,786
+SUBJ0392,CH01,Switzerland,Aarau,Female,37,2025-06-04,TRUE,2028-02-17,Lost to follow-up,Discontinued,988
+SUBJ0393,CH05,Switzerland,Bern,Male,20,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0394,CH16,Switzerland,Chur,Male,74,2025-05-30,FALSE,NA,NA,Completed,640
+SUBJ0395,CH09,Switzerland,Lausanne,Male,25,2025-02-04,FALSE,NA,NA,Completed,755
+SUBJ0396,CH09,Switzerland,Lausanne,Male,36,2025-06-27,FALSE,NA,NA,Completed,612
+SUBJ0397,CH12,Switzerland,Olten,Female,66,2025-02-25,FALSE,NA,NA,Completed,734
+SUBJ0398,CH05,Switzerland,Bern,Male,52,2025-05-13,FALSE,NA,NA,Completed,657
+SUBJ0399,CH17,Switzerland,Neuchâtel,Male,82,2025-01-30,FALSE,NA,NA,Completed,760
+SUBJ0400,CH09,Switzerland,Lausanne,Female,70,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0401,CH07,Switzerland,Geneva,Male,74,2025-05-16,FALSE,NA,NA,Completed,654
+SUBJ0402,CH06,Switzerland,Fribourg,Male,75,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0403,CH17,Switzerland,Neuchâtel,Female,27,2025-01-29,FALSE,NA,NA,Completed,761
+SUBJ0404,CH13,Switzerland,Solothurn,Female,51,2025-02-09,FALSE,NA,NA,Completed,750
+SUBJ0405,CH11,Switzerland,Lugano,Female,82,2025-03-27,FALSE,NA,NA,Completed,704
+SUBJ0406,CH09,Switzerland,Lausanne,Male,69,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0407,CH06,Switzerland,Fribourg,Female,46,2025-03-06,FALSE,NA,NA,Completed,725
+SUBJ0408,CH15,Switzerland,Zurich,Female,77,2025-02-17,FALSE,NA,NA,Completed,742
+SUBJ0409,CH04,Switzerland,Bellinzona,Male,19,2025-06-08,FALSE,NA,NA,Completed,631
+SUBJ0410,CH15,Switzerland,Zurich,Female,40,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0411,CH10,Switzerland,Luzern,Male,38,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0412,CH05,Switzerland,Bern,Female,39,2025-05-05,FALSE,NA,NA,Completed,665
+SUBJ0413,CH08,Switzerland,St. Gallen,Female,50,2025-05-15,FALSE,NA,NA,Completed,655
+SUBJ0414,CH17,Switzerland,Neuchâtel,Male,81,2025-05-18,TRUE,2027-07-11,Investigator decision,Discontinued,784
+SUBJ0415,CH15,Switzerland,Zurich,Female,36,2025-01-28,TRUE,2026-06-07,Adverse event,Discontinued,495
+SUBJ0416,CH11,Switzerland,Lugano,Male,49,2025-04-29,FALSE,NA,NA,Completed,671
+SUBJ0417,CH01,Switzerland,Aarau,Female,38,2025-03-20,TRUE,2027-07-06,Withdrawal of consent,Discontinued,838
+SUBJ0418,CH08,Switzerland,St. Gallen,Male,64,2025-06-27,FALSE,NA,NA,Completed,612
+SUBJ0419,CH10,Switzerland,Luzern,Female,85,2025-05-09,FALSE,NA,NA,Completed,661
+SUBJ0420,CH12,Switzerland,Olten,Male,83,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0421,CH15,Switzerland,Zurich,Male,45,2025-03-10,FALSE,NA,NA,Completed,721
+SUBJ0422,CH12,Switzerland,Olten,Female,43,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0423,CH12,Switzerland,Olten,Male,21,2025-01-28,FALSE,NA,NA,Completed,762
+SUBJ0424,CH08,Switzerland,St. Gallen,Male,38,2025-05-17,FALSE,NA,NA,Completed,653
+SUBJ0425,CH08,Switzerland,St. Gallen,Male,30,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0426,CH12,Switzerland,Olten,Male,30,2025-04-05,FALSE,NA,NA,Completed,695
+SUBJ0427,CH09,Switzerland,Lausanne,Female,40,2025-02-25,TRUE,2027-07-28,Lost to follow-up,Discontinued,883
+SUBJ0428,CH10,Switzerland,Luzern,Male,56,2025-02-17,FALSE,NA,NA,Completed,742
+SUBJ0429,DE01,Germany,Berlin,Male,25,2025-01-28,FALSE,NA,NA,Completed,762
+SUBJ0430,CH13,Switzerland,Solothurn,Male,73,2025-01-16,FALSE,NA,NA,Completed,774
+SUBJ0431,CH13,Switzerland,Solothurn,Male,78,2025-04-24,FALSE,NA,NA,Completed,676
+SUBJ0432,CH02,Switzerland,Baden,Female,65,2025-05-13,TRUE,2028-02-05,Protocol deviation,Discontinued,998
+SUBJ0433,CH10,Switzerland,Luzern,Male,34,2025-06-05,FALSE,NA,NA,Completed,634
+SUBJ0434,CH08,Switzerland,St. Gallen,Female,24,2025-06-13,FALSE,NA,NA,Completed,626
+SUBJ0435,CH09,Switzerland,Lausanne,Female,79,2025-05-21,FALSE,NA,NA,Completed,649
+SUBJ0436,CH15,Switzerland,Zurich,Male,84,2025-05-13,FALSE,NA,NA,Completed,657
+SUBJ0437,CH13,Switzerland,Solothurn,Female,76,2025-04-27,FALSE,NA,NA,Completed,673
+SUBJ0438,CH04,Switzerland,Bellinzona,Female,18,2025-05-23,FALSE,NA,NA,Completed,647
+SUBJ0439,CH10,Switzerland,Luzern,Female,40,2025-05-25,FALSE,NA,NA,Completed,645
+SUBJ0440,CH15,Switzerland,Zurich,Female,58,2025-03-03,FALSE,NA,NA,Completed,728
+SUBJ0441,CH12,Switzerland,Olten,Male,40,2025-03-07,FALSE,NA,NA,Completed,724
+SUBJ0442,CH06,Switzerland,Fribourg,Male,52,2025-01-31,FALSE,NA,NA,Completed,759
+SUBJ0443,CH04,Switzerland,Bellinzona,Male,30,2025-04-28,TRUE,2027-01-07,Adverse event,Discontinued,619
+SUBJ0444,CH01,Switzerland,Aarau,Female,78,2025-04-12,FALSE,NA,NA,Completed,688
+SUBJ0445,CH14,Switzerland,Sion,Male,69,2025-06-23,FALSE,NA,NA,Completed,616
+SUBJ0446,CH06,Switzerland,Fribourg,Male,81,2025-02-21,FALSE,NA,NA,Completed,738
+SUBJ0447,CH14,Switzerland,Sion,Male,83,2025-03-01,FALSE,NA,NA,Completed,730
+SUBJ0448,CH03,Switzerland,Basel,Male,71,2025-03-05,TRUE,2027-07-22,Adverse event,Discontinued,869
+SUBJ0449,CH10,Switzerland,Luzern,Female,42,2025-01-17,FALSE,NA,NA,Completed,773
+SUBJ0450,CH15,Switzerland,Zurich,Female,45,2025-05-23,FALSE,NA,NA,Completed,647
+SUBJ0451,CH08,Switzerland,St. Gallen,Male,75,2025-06-06,FALSE,NA,NA,Completed,633
+SUBJ0452,CH13,Switzerland,Solothurn,Male,80,2025-04-11,FALSE,NA,NA,Completed,689
+SUBJ0453,CH07,Switzerland,Geneva,Male,74,2025-05-15,TRUE,2026-02-18,Withdrawal of consent,Discontinued,279
+SUBJ0454,CH15,Switzerland,Zurich,Female,64,2025-06-16,FALSE,NA,NA,Completed,623
+SUBJ0455,CH11,Switzerland,Lugano,Male,18,2025-05-21,FALSE,NA,NA,Completed,649
+SUBJ0456,CH11,Switzerland,Lugano,Male,84,2025-02-08,FALSE,NA,NA,Completed,751
+SUBJ0457,CH14,Switzerland,Sion,Female,55,2025-03-16,FALSE,NA,NA,Completed,715
+SUBJ0458,CH08,Switzerland,St. Gallen,Female,30,2025-02-14,FALSE,NA,NA,Completed,745
+SUBJ0459,CH06,Switzerland,Fribourg,Male,37,2025-05-08,FALSE,NA,NA,Completed,662
+SUBJ0460,IT01,Italy,Verona,Female,45,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0461,IT01,Italy,Verona,Female,57,2025-02-12,FALSE,NA,NA,Completed,747
+SUBJ0462,CH02,Switzerland,Baden,Male,49,2025-05-08,FALSE,NA,NA,Completed,662
+SUBJ0463,CH09,Switzerland,Lausanne,Male,50,2025-03-04,TRUE,2026-07-29,Withdrawal of consent,Discontinued,512
+SUBJ0464,CH10,Switzerland,Luzern,Male,43,2025-05-25,FALSE,NA,NA,Completed,645
+SUBJ0465,CH06,Switzerland,Fribourg,Female,19,2025-05-06,FALSE,NA,NA,Completed,664
+SUBJ0466,CH08,Switzerland,St. Gallen,Male,35,2025-04-28,FALSE,NA,NA,Completed,672
+SUBJ0467,CH14,Switzerland,Sion,Female,59,2025-01-09,FALSE,NA,NA,Completed,781
+SUBJ0468,CH16,Switzerland,Chur,Female,76,2025-05-02,FALSE,NA,NA,Completed,668
+SUBJ0469,CH01,Switzerland,Aarau,Female,29,2025-01-06,FALSE,NA,NA,Completed,784
+SUBJ0470,CH14,Switzerland,Sion,Female,72,2025-03-04,FALSE,NA,NA,Completed,727
+SUBJ0471,CH04,Switzerland,Bellinzona,Male,48,2025-04-23,TRUE,2025-12-28,Adverse event,Discontinued,249
+SUBJ0472,CH04,Switzerland,Bellinzona,Female,25,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0473,CH01,Switzerland,Aarau,Female,42,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0474,FR01,France,Paris,Female,40,2025-05-05,FALSE,NA,NA,Completed,665
+SUBJ0475,CH10,Switzerland,Luzern,Male,64,2025-05-12,FALSE,NA,NA,Completed,658
+SUBJ0476,CH15,Switzerland,Zurich,Female,33,2025-01-17,FALSE,NA,NA,Completed,773
+SUBJ0477,CH02,Switzerland,Baden,Male,49,2025-02-19,FALSE,NA,NA,Completed,740
+SUBJ0478,CH15,Switzerland,Zurich,Female,78,2025-02-26,FALSE,NA,NA,Completed,733
+SUBJ0479,CH16,Switzerland,Chur,Male,34,2025-03-25,FALSE,NA,NA,Completed,706
+SUBJ0480,CH14,Switzerland,Sion,Male,82,2025-04-30,FALSE,NA,NA,Completed,670
+SUBJ0481,IT01,Italy,Verona,Female,67,2025-03-12,FALSE,NA,NA,Completed,719
+SUBJ0482,CH16,Switzerland,Chur,Male,36,2025-05-26,FALSE,NA,NA,Completed,644
+SUBJ0483,CH08,Switzerland,St. Gallen,Male,37,2025-02-13,FALSE,NA,NA,Completed,746
+SUBJ0484,CH07,Switzerland,Geneva,Female,42,2025-06-21,FALSE,NA,NA,Completed,618
+SUBJ0485,CH10,Switzerland,Luzern,Male,58,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0486,DE01,Germany,Berlin,Male,70,2025-04-26,FALSE,NA,NA,Completed,674
+SUBJ0487,CH09,Switzerland,Lausanne,Female,57,2025-05-22,FALSE,NA,NA,Completed,648
+SUBJ0488,CH06,Switzerland,Fribourg,Male,31,2025-04-28,FALSE,NA,NA,Completed,672
+SUBJ0489,CH08,Switzerland,St. Gallen,Male,26,2025-05-13,FALSE,NA,NA,Completed,657
+SUBJ0490,CH14,Switzerland,Sion,Female,56,2025-03-10,FALSE,NA,NA,Completed,721
+SUBJ0491,CH12,Switzerland,Olten,Female,18,2025-01-01,FALSE,NA,NA,Completed,789
+SUBJ0492,CH15,Switzerland,Zurich,Male,31,2025-04-06,FALSE,NA,NA,Completed,694
+SUBJ0493,CH10,Switzerland,Luzern,Female,45,2025-06-07,FALSE,NA,NA,Completed,632
+SUBJ0494,FR02,France,Amiens,Female,34,2025-06-15,TRUE,2026-11-08,Adverse event,Discontinued,511
+SUBJ0495,CH01,Switzerland,Aarau,Male,23,2025-01-12,FALSE,NA,NA,Completed,778
+SUBJ0496,CH02,Switzerland,Baden,Male,24,2025-06-25,FALSE,NA,NA,Completed,614
+SUBJ0497,CH03,Switzerland,Basel,Male,65,2025-06-07,FALSE,NA,NA,Completed,632
+SUBJ0498,CH12,Switzerland,Olten,Male,77,2025-03-29,FALSE,NA,NA,Completed,702
+SUBJ0499,CH15,Switzerland,Zurich,Male,49,2025-02-09,FALSE,NA,NA,Completed,750
+SUBJ0500,CH07,Switzerland,Geneva,Female,62,2025-06-12,FALSE,NA,NA,Completed,627
+SUBJ0501,CH10,Switzerland,Luzern,Male,66,2025-05-08,FALSE,NA,NA,Completed,662
+SUBJ0502,CH04,Switzerland,Bellinzona,Male,25,2025-01-14,FALSE,NA,NA,Completed,776
+SUBJ0503,CH17,Switzerland,Neuchâtel,Female,46,2025-01-02,FALSE,NA,NA,Completed,788
+SUBJ0504,CH03,Switzerland,Basel,Male,43,2025-03-02,FALSE,NA,NA,Completed,729
+SUBJ0505,CH10,Switzerland,Luzern,Female,61,2025-01-05,FALSE,NA,NA,Completed,785
+SUBJ0506,DE01,Germany,Berlin,Male,50,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0507,FR02,France,Amiens,Male,48,2025-05-26,FALSE,NA,NA,Completed,644
+SUBJ0508,CH09,Switzerland,Lausanne,Female,29,2025-06-07,TRUE,2026-06-14,Protocol deviation,Discontinued,372
+SUBJ0509,CH03,Switzerland,Basel,Male,35,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0510,CH05,Switzerland,Bern,Female,54,2025-01-13,FALSE,NA,NA,Completed,777
+SUBJ0511,CH10,Switzerland,Luzern,Female,60,2025-04-28,TRUE,2028-01-16,Protocol deviation,Discontinued,993
+SUBJ0512,CH17,Switzerland,Neuchâtel,Female,62,2025-01-06,FALSE,NA,NA,Completed,784
+SUBJ0513,CH07,Switzerland,Geneva,Male,18,2025-02-18,FALSE,NA,NA,Completed,741
+SUBJ0514,CH12,Switzerland,Olten,Female,34,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0515,CH12,Switzerland,Olten,Female,31,2025-04-27,FALSE,NA,NA,Completed,673
+SUBJ0516,CH08,Switzerland,St. Gallen,Male,47,2025-01-19,FALSE,NA,NA,Completed,771
+SUBJ0517,CH16,Switzerland,Chur,Female,48,2025-01-09,FALSE,NA,NA,Completed,781
+SUBJ0518,CH12,Switzerland,Olten,Female,20,2025-03-26,FALSE,NA,NA,Completed,705
+SUBJ0519,CH11,Switzerland,Lugano,Male,66,2025-02-07,FALSE,NA,NA,Completed,752
+SUBJ0520,CH07,Switzerland,Geneva,Male,30,2025-06-15,FALSE,NA,NA,Completed,624
+SUBJ0521,CH13,Switzerland,Solothurn,Male,19,2025-01-29,FALSE,NA,NA,Completed,761
+SUBJ0522,CH16,Switzerland,Chur,Male,53,2025-06-03,FALSE,NA,NA,Completed,636
+SUBJ0523,CH17,Switzerland,Neuchâtel,Male,60,2025-04-15,FALSE,NA,NA,Completed,685
+SUBJ0524,CH03,Switzerland,Basel,Male,44,2025-04-12,TRUE,2026-10-27,Investigator decision,Discontinued,563
+SUBJ0525,CH16,Switzerland,Chur,Male,84,2025-02-08,FALSE,NA,NA,Completed,751
+SUBJ0526,CH08,Switzerland,St. Gallen,Female,82,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0527,CH14,Switzerland,Sion,Male,53,2025-01-13,FALSE,NA,NA,Completed,777
+SUBJ0528,CH13,Switzerland,Solothurn,Female,69,2025-05-13,FALSE,NA,NA,Completed,657
+SUBJ0529,CH16,Switzerland,Chur,Male,28,2025-02-11,FALSE,NA,NA,Completed,748
+SUBJ0530,CH16,Switzerland,Chur,Female,69,2025-06-01,FALSE,NA,NA,Completed,638
+SUBJ0531,CH04,Switzerland,Bellinzona,Male,53,2025-05-17,FALSE,NA,NA,Completed,653
+SUBJ0532,CH17,Switzerland,Neuchâtel,Female,52,2025-04-23,FALSE,NA,NA,Completed,677
+SUBJ0533,CH02,Switzerland,Baden,Male,43,2025-01-30,FALSE,NA,NA,Completed,760
+SUBJ0534,CH10,Switzerland,Luzern,Male,32,2025-06-24,TRUE,2028-01-29,Lost to follow-up,Discontinued,949
+SUBJ0535,CH03,Switzerland,Basel,Male,38,2025-01-10,FALSE,NA,NA,Completed,780
+SUBJ0536,CH11,Switzerland,Lugano,Male,68,2025-04-01,FALSE,NA,NA,Completed,699
+SUBJ0537,CH01,Switzerland,Aarau,Female,24,2025-04-18,FALSE,NA,NA,Completed,682
+SUBJ0538,CH06,Switzerland,Fribourg,Male,53,2025-02-07,FALSE,NA,NA,Completed,752
+SUBJ0539,CH14,Switzerland,Sion,Female,77,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0540,CH17,Switzerland,Neuchâtel,Male,27,2025-04-04,FALSE,NA,NA,Completed,696
+SUBJ0541,FR02,France,Amiens,Male,47,2025-04-01,FALSE,NA,NA,Completed,699
+SUBJ0542,CH01,Switzerland,Aarau,Female,47,2025-05-02,FALSE,NA,NA,Completed,668
+SUBJ0543,CH11,Switzerland,Lugano,Female,79,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0544,CH07,Switzerland,Geneva,Male,30,2025-05-07,FALSE,NA,NA,Completed,663
+SUBJ0545,CH05,Switzerland,Bern,Female,66,2025-02-15,FALSE,NA,NA,Completed,744
+SUBJ0546,CH09,Switzerland,Lausanne,Male,66,2025-02-15,FALSE,NA,NA,Completed,744
+SUBJ0547,CH09,Switzerland,Lausanne,Female,79,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0548,CH03,Switzerland,Basel,Female,27,2025-04-27,FALSE,NA,NA,Completed,673
+SUBJ0549,CH12,Switzerland,Olten,Male,52,2025-04-29,FALSE,NA,NA,Completed,671
+SUBJ0550,CH13,Switzerland,Solothurn,Female,25,2025-01-05,FALSE,NA,NA,Completed,785
+SUBJ0551,CH16,Switzerland,Chur,Female,41,2025-02-08,FALSE,NA,NA,Completed,751
+SUBJ0552,CH05,Switzerland,Bern,Male,69,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0553,CH17,Switzerland,Neuchâtel,Female,46,2025-02-09,TRUE,2025-12-01,Death,Discontinued,295
+SUBJ0554,CH03,Switzerland,Basel,Female,54,2025-05-18,FALSE,NA,NA,Completed,652
+SUBJ0555,CH16,Switzerland,Chur,Male,43,2025-04-10,FALSE,NA,NA,Completed,690
+SUBJ0556,CH01,Switzerland,Aarau,Female,60,2025-03-14,FALSE,NA,NA,Completed,717
+SUBJ0557,CH08,Switzerland,St. Gallen,Male,41,2025-01-11,TRUE,2026-07-07,Adverse event,Discontinued,542
+SUBJ0558,CH08,Switzerland,St. Gallen,Male,30,2025-01-06,FALSE,NA,NA,Completed,784
+SUBJ0559,CH06,Switzerland,Fribourg,Female,80,2025-03-22,FALSE,NA,NA,Completed,709
+SUBJ0560,CH09,Switzerland,Lausanne,Female,76,2025-02-27,FALSE,NA,NA,Completed,732
+SUBJ0561,CH05,Switzerland,Bern,Female,50,2025-02-21,FALSE,NA,NA,Completed,738
+SUBJ0562,CH12,Switzerland,Olten,Male,29,2025-05-31,FALSE,NA,NA,Completed,639
+SUBJ0563,CH02,Switzerland,Baden,Female,21,2025-02-22,FALSE,NA,NA,Completed,737
+SUBJ0564,CH01,Switzerland,Aarau,Male,66,2025-01-23,FALSE,NA,NA,Completed,767
+SUBJ0565,CH01,Switzerland,Aarau,Male,78,2025-04-09,TRUE,2027-09-12,Withdrawal of consent,Discontinued,886
+SUBJ0566,CH16,Switzerland,Chur,Male,45,2025-05-06,FALSE,NA,NA,Completed,664
+SUBJ0567,CH06,Switzerland,Fribourg,Female,18,2025-05-30,FALSE,NA,NA,Completed,640
+SUBJ0568,CH15,Switzerland,Zurich,Female,61,2025-05-19,FALSE,NA,NA,Completed,651
+SUBJ0569,CH01,Switzerland,Aarau,Female,52,2025-04-22,FALSE,NA,NA,Completed,678
+SUBJ0570,CH05,Switzerland,Bern,Male,58,2025-01-24,FALSE,NA,NA,Completed,766
+SUBJ0571,CH15,Switzerland,Zurich,Female,72,2025-06-10,FALSE,NA,NA,Completed,629
+SUBJ0572,CH08,Switzerland,St. Gallen,Male,35,2025-04-01,FALSE,NA,NA,Completed,699
+SUBJ0573,CH08,Switzerland,St. Gallen,Male,65,2025-05-04,FALSE,NA,NA,Completed,666
+SUBJ0574,IT01,Italy,Verona,Female,30,2025-05-09,FALSE,NA,NA,Completed,661
+SUBJ0575,CH17,Switzerland,Neuchâtel,Male,74,2025-02-02,FALSE,NA,NA,Completed,757
+SUBJ0576,CH10,Switzerland,Luzern,Female,85,2025-02-14,FALSE,NA,NA,Completed,745
+SUBJ0577,CH17,Switzerland,Neuchâtel,Female,56,2025-05-14,FALSE,NA,NA,Completed,656
+SUBJ0578,CH08,Switzerland,St. Gallen,Female,18,2025-03-03,FALSE,NA,NA,Completed,728
+SUBJ0579,CH08,Switzerland,St. Gallen,Male,49,2025-05-23,FALSE,NA,NA,Completed,647
+SUBJ0580,CH11,Switzerland,Lugano,Male,56,2025-02-24,FALSE,NA,NA,Completed,735
+SUBJ0581,CH11,Switzerland,Lugano,Female,62,2025-02-05,FALSE,NA,NA,Completed,754
+SUBJ0582,CH01,Switzerland,Aarau,Male,28,2025-03-09,FALSE,NA,NA,Completed,722
+SUBJ0583,CH11,Switzerland,Lugano,Female,30,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0584,CH10,Switzerland,Luzern,Female,70,2025-02-12,FALSE,NA,NA,Completed,747
+SUBJ0585,CH12,Switzerland,Olten,Male,79,2025-01-07,FALSE,NA,NA,Completed,783
+SUBJ0586,CH05,Switzerland,Bern,Female,55,2025-02-16,FALSE,NA,NA,Completed,743
+SUBJ0587,CH15,Switzerland,Zurich,Male,81,2025-03-10,FALSE,NA,NA,Completed,721
+SUBJ0588,IT01,Italy,Verona,Female,42,2025-06-19,FALSE,NA,NA,Completed,620
+SUBJ0589,CH13,Switzerland,Solothurn,Male,44,2025-02-01,FALSE,NA,NA,Completed,758
+SUBJ0590,CH04,Switzerland,Bellinzona,Male,30,2025-03-30,FALSE,NA,NA,Completed,701
+SUBJ0591,DE01,Germany,Berlin,Female,45,2025-02-08,FALSE,NA,NA,Completed,751
+SUBJ0592,CH10,Switzerland,Luzern,Male,54,2025-01-13,FALSE,NA,NA,Completed,777
+SUBJ0593,CH05,Switzerland,Bern,Male,28,2025-02-20,FALSE,NA,NA,Completed,739
+SUBJ0594,CH17,Switzerland,Neuchâtel,Female,66,2025-06-15,FALSE,NA,NA,Completed,624
+SUBJ0595,CH07,Switzerland,Geneva,Female,44,2025-03-11,FALSE,NA,NA,Completed,720
+SUBJ0596,CH17,Switzerland,Neuchâtel,Female,60,2025-05-26,FALSE,NA,NA,Completed,644
+SUBJ0597,CH15,Switzerland,Zurich,Male,58,2025-01-16,FALSE,NA,NA,Completed,774
+SUBJ0598,CH01,Switzerland,Aarau,Male,76,2025-06-27,FALSE,NA,NA,Completed,612
+SUBJ0599,CH01,Switzerland,Aarau,Female,63,2025-02-07,FALSE,NA,NA,Completed,752
+SUBJ0600,CH14,Switzerland,Sion,Male,19,2025-01-27,FALSE,NA,NA,Completed,763
