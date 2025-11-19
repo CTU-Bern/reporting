@@ -29,15 +29,6 @@ library(kableExtra)
 library(gridExtra)
 ```
 
-# Reporting
-
-We offer various reporting options to help you track the key aspects of your clinical trial.
-
--   Recruitment reports
--   Safety reports
--   Patient retention reports
--   Query reports
--   Shiny Dashboard
 
 # Recruitment
 ## Column
@@ -737,13 +728,3 @@ kable("html", escape = FALSE, align = "c")
 ```
 
 
-# Shiny Dashboard 
-
-
-All of these figures and others could be present in an interactive dashboard, accessible at all times for the study team. This service is currently under development.
-
-Dashboard examples:
-
-<https://shiny.posit.co/r/gallery/life-sciences/hospital-data-antimicrobial/>
-
-<https://covid19.ctu.unibe.ch/>
