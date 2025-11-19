@@ -5,7 +5,7 @@ project:
 website:
   title: "DCR Dashboard"
   page-footer:
-    center: "2025 University of Bern | Departement of Clinical Research"
+    center: "2025 University of Bern | Department of Clinical Research"
 format:
   html:
     theme: styles/unibeDashboard.scss
